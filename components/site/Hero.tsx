@@ -38,12 +38,16 @@ export function Hero(){
    };
    const timeline=gsap.timeline({
     onUpdate:render,
-    scrollTrigger:{trigger:stage,refreshPriority:10,start:()=>`top top+=${document.querySelector('header')?.getBoundingClientRect().height||72}`,end:()=>'+='+Math.round(stage.clientHeight*(portrait?1.5:2.05)),pin:stage,scrub:portrait?.45:.75,anticipatePin:1,invalidateOnRefresh:true},
+    scrollTrigger:{trigger:stage,refreshPriority:10,start:()=>`top top+=${document.querySelector('header')?.getBoundingClientRect().height||72}`,end:()=>'+='+Math.round(stage.clientHeight*(portrait?1.75:2.15)),pin:stage,scrub:portrait?.32:.72,anticipatePin:1,invalidateOnRefresh:true},
    });
    timeline.to(driver,{value:1,duration:1,ease:'none'},0)
     .to('.hero-copy',{y:portrait?-35:-65,autoAlpha:0,duration:.17,ease:'power1.in'},.015)
     .to('.hero-photo',{clipPath:portrait?'inset(4% 4% 9% 4%)':'inset(7% 6% 10% 6%)',yPercent:-8,scale:1.06,opacity:0,duration:.32,ease:'power2.inOut'},.025)
     .fromTo('.hero-drafting',{opacity:0,scale:.92},{opacity:.65,scale:1,duration:.16,immediateRender:false},.12)
+    .fromTo('.hero-aperture-panel--a',{xPercent:portrait?-20:-35,rotateY:portrait?18:24,opacity:0},{xPercent:0,rotateY:0,opacity:.72,duration:.22,immediateRender:false},.11)
+    .fromTo('.hero-aperture-panel--b',{xPercent:portrait?20:35,rotateY:portrait?-18:-24,opacity:0},{xPercent:0,rotateY:0,opacity:.55,duration:.24,immediateRender:false},.13)
+    .fromTo('.hero-aperture-line',{scaleY:0},{scaleY:1,duration:.2,stagger:.025,transformOrigin:'top',immediateRender:false},.14)
+    .to('.hero-aperture',{scale:1.08,opacity:0,duration:.28,ease:'power2.inOut'},.5)
     .to('.hero-drafting',{opacity:0,duration:.24},.43)
     .fromTo('.hero-model',{autoAlpha:0,scale:.86},{autoAlpha:1,scale:1,duration:.29,ease:'power2.out',immediateRender:false},.14)
     .fromTo('.hero-story-copy--plan',{autoAlpha:0,y:35},{autoAlpha:1,y:0,duration:.13,immediateRender:false},.23)
@@ -51,6 +55,7 @@ export function Hero(){
     .fromTo('.hero-story-copy--home',{autoAlpha:0,y:35},{autoAlpha:1,y:0,duration:.14,immediateRender:false},.65)
     .fromTo('.hero-model-caption',{autoAlpha:0},{autoAlpha:1,duration:.15,immediateRender:false},.4)
     .fromTo('.hero-progress-line',{scaleX:0},{scaleX:1,duration:1,ease:'none'},0)
+    .to('.hero-studio-light',{backgroundPosition:'62% 50%',duration:1,ease:'none'},0)
     .to('.hero-model',{opacity:.75,scale:.98,duration:.1},.9);
    render();
   },el);
@@ -69,6 +74,7 @@ export function Hero(){
     <div className="hero-bottom hero-entry"><p>מחשבה על הפרטים.<br/>מחויבות לאנשים שחיים בהם.</p><a href="#projects" className="button button-light"><span>גלו את הפרויקטים</span><Icon name="arrow"/></a></div>
    </div>
    <svg className="hero-drafting" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><g fill="none" stroke="currentColor" strokeWidth=".65"><path d="M0 450h1600M800 0v900M0 0l1600 900M0 900 1600 0"/><rect x="330" y="190" width="940" height="520"/><rect x="520" y="280" width="560" height="340"/><circle cx="800" cy="450" r="270"/><path d="M305 190h50m-25-25v50m915 495h50m-25-25v50"/></g></svg>
+   <div className="hero-aperture" aria-hidden="true"><i className="hero-aperture-panel hero-aperture-panel--a"/><i className="hero-aperture-panel hero-aperture-panel--b"/><i className="hero-aperture-line hero-aperture-line--a"/><i className="hero-aperture-line hero-aperture-line--b"/><i className="hero-aperture-line hero-aperture-line--c"/></div>
    <div className="hero-model"><ArchitectureScene enabled={mode!=='static'&&!reduced} mobile={mode==='portrait'} onReady={registerScene}/></div>
    <div className="hero-story-copy hero-story-copy--plan"><span className="eyebrow">01 / המחשבה</span><h2>מהקו<br/><em>הראשון.</em></h2><p>דיוק בתכנון.<br/>מחשבה על כל פרט.</p></div>
    <div className="hero-story-copy hero-story-copy--home"><span className="eyebrow">02 / המרחב</span><h2>עד הבית<br/><em>שלכם.</em></h2><p>מהייזום והתכנון, דרך הביצוע<br/>ועד לרגע קבלת המפתח.</p><a href="#about" className="text-link">הדרך שלנו <Icon name="arrow"/></a></div>

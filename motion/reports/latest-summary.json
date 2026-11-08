@@ -82,5 +82,33 @@
     ],
     "contrast": 19,
     "motionSamples": 141
+  },
+  {
+    "name": "passage-desktop",
+    "passed": true,
+    "findings": [],
+    "frames": [
+      0,
+      1.2,
+      3.2,
+      5.4,
+      6.9
+    ],
+    "contrast": 13,
+    "motionSamples": 141
+  },
+  {
+    "name": "passage-mobile",
+    "passed": true,
+    "findings": [],
+    "frames": [
+      0,
+      1.2,
+      3.2,
+      5.4,
+      6.9
+    ],
+    "contrast": 13,
+    "motionSamples": 141
   }
 ]

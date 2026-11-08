@@ -66,5 +66,22 @@
       "fallback": "/compositions/threshold/mobile/fallback.svg"
     },
     "fallback": "/compositions/threshold/fallback.svg"
+  },
+  {
+    "id": "passage",
+    "title": "תכנון. ביצוע. בית.",
+    "duration": 7,
+    "desktop": {
+      "src": "/compositions/passage/index.html",
+      "width": 1600,
+      "height": 560
+    },
+    "mobile": {
+      "src": "/compositions/passage/mobile/index.html",
+      "width": 720,
+      "height": 900,
+      "fallback": "/compositions/passage/mobile/fallback.svg"
+    },
+    "fallback": "/compositions/passage/fallback.svg"
   }
 ]

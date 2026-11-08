@@ -1,0 +1,15 @@
+{
+  "duration": 7,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": ".brand",
+      "bySec": 6.4
+    },
+    {
+      "kind": "appearsBy",
+      "selector": ".words",
+      "bySec": 6.5
+    }
+  ]
+}

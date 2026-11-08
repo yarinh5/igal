@@ -5,8 +5,9 @@ import {useMotion} from './MotionProvider';
 import manifest from '@/public/compositions/manifest.json';
 
 type Player=HTMLElement&{seek:(seconds:number)=>void;pause:()=>void};
-type Scene='blueprint'|'process'|'chapter'|'threshold';
-export function HyperScene({scene,label,className=''}:{scene:Scene;label:string;className?:string}){
+type Scene='blueprint'|'process'|'chapter'|'threshold'|'passage';
+type Mode='inline'|'passage';
+export function HyperScene({scene,label,className='',mode='inline'}:{scene:Scene;label:string;className?:string;mode?:Mode}){
  const root=useRef<HTMLDivElement>(null);
  const {reduced}=useMotion();
  const [mobile,setMobile]=useState(false);
@@ -14,7 +15,7 @@ export function HyperScene({scene,label,className=''}:{scene:Scene;label:string;
  const definition=manifest.find(entry=>entry.id===scene)!;
  const variant=mobile?definition.mobile:definition.desktop;
  useEffect(()=>{
-  const media=matchMedia('(max-width:600px)');const update=()=>setMobile(media.matches);
+  const media=matchMedia('(max-width:899px)');const update=()=>setMobile(media.matches);
   update();media.addEventListener('change',update);return()=>media.removeEventListener('change',update);
  },[]);
  useEffect(()=>{
@@ -23,11 +24,12 @@ export function HyperScene({scene,label,className=''}:{scene:Scene;label:string;
   let disposed=false,ready=false,visible=false,player:Player|null=null;
   let animation:gsap.core.Tween|undefined,timer:ReturnType<typeof setTimeout>|undefined,frame=0;
   let duration=definition.duration,lastTime=-1;
+  const device=navigator as Navigator&{deviceMemory?:number};
+  const fps=mobile&&((navigator.hardwareConcurrency||8)<=4||(device.deviceMemory??8)<=4)?24:mobile?30:60;
   const playhead={value:0};
   setStatus('fallback');delete host.dataset.duration;delete host.dataset.time;
   const paint=()=>{
    frame=0;if(disposed||!ready||!visible||document.hidden||!player)return;
-   const fps=mobile?30:60;
    const target=Math.min(duration-.025,Math.max(0,Math.round(playhead.value*duration*fps)/fps));
    if(Math.abs(lastTime-target)<1/fps*.5)return;
    player.seek(target);lastTime=target;
@@ -49,17 +51,19 @@ export function HyperScene({scene,label,className=''}:{scene:Scene;label:string;
      ready=true;clearTimeout(timer);
      duration=(event as CustomEvent<{duration:number}>).detail.duration||definition.duration;
      host.dataset.duration=String(duration);setStatus('ready');player.pause();
-     animation=gsap.fromTo(playhead,{value:0},{value:1,duration:1,ease:'none',onUpdate:schedule,scrollTrigger:{trigger:host,start:scene==='threshold'?'top 94%':'top 86%',end:scene==='threshold'?'top 15%':'bottom 14%',scrub:mobile?.3:.5,invalidateOnRefresh:true,onRefresh:schedule}});
+     host.dataset.fps=String(fps);
+     const trigger=mode==='passage'?host.closest<HTMLElement>('[data-hyper-passage]')||host:host;
+     animation=gsap.fromTo(playhead,{value:0},{value:1,duration:1,ease:'none',onUpdate:schedule,scrollTrigger:{trigger,start:mode==='passage'?'top 88%':scene==='threshold'?'top 94%':'top 86%',end:mode==='passage'?'bottom 12%':scene==='threshold'?'top 15%':'bottom 14%',scrub:mobile?.25:.48,invalidateOnRefresh:true,onRefresh:schedule}});
      schedule();
     });
     player.addEventListener('error',fail);
     host.appendChild(player);
     timer=setTimeout(()=>{if(!ready)fail()},14000);
    }).catch(fail);
-  },{rootMargin:mobile?'350px':'600px'});
+  },{rootMargin:mobile?'250px':'600px'});
   lazy.observe(host);
   document.addEventListener('visibilitychange',schedule);
   return()=>{disposed=true;clearTimeout(timer);cancelAnimationFrame(frame);lazy.disconnect();inView.disconnect();animation?.scrollTrigger?.kill();animation?.kill();document.removeEventListener('visibilitychange',schedule);player?.remove()};
- },[scene,reduced,mobile,definition,variant]);
- return <div ref={root} className={`hyper-scene ${className}`} style={{aspectRatio:`${variant.width}/${variant.height}`}} data-scene={scene} data-status={status} role="img" aria-label={label}><img src={mobile?definition.mobile.fallback:definition.fallback} className="hyper-fallback" alt="" loading="lazy"/></div>;
+ },[scene,reduced,mobile,definition,variant,mode]);
+ return <div ref={root} className={`hyper-scene hyper-scene--${mode} ${className}`} style={{aspectRatio:`${variant.width}/${variant.height}`}} data-scene={scene} data-status={status} role="img" aria-label={label}><img src={mobile?definition.mobile.fallback:definition.fallback} className="hyper-fallback" alt="" loading="lazy"/></div>;
 }

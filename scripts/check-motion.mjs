@@ -19,7 +19,7 @@ for (const entry of manifests) {
     const name = `${entry.id}-${variant}`;
     if (requested.size && !requested.has(name)) continue;
     const target = path.dirname(path.join(root, 'public', entry[variant].src));
-    const times = entry.id === 'process' ? '0,2.3,4.7,7.5,8.9' : entry.id === 'chapter' ? '0,1.5,3,4.5,6.9' : '0,2,4,6,7.9';
+    const times = entry.id === 'process' ? '0,2.3,4.7,7.5,8.9' : entry.id === 'chapter' ? '0,1.5,3,4.5,6.9' : entry.id === 'passage' ? '0,1.2,3.2,5.4,6.9' : '0,2,4,6,7.9';
     console.log(`Checking ${name} with the official HyperFrames CLI...`);
     const result = spawnSync(process.execPath, [cli, 'check', target, '--samples', '5', '--at', times, '--snapshots', '--json'], { cwd: root, encoding: 'utf8', maxBuffer: 8 * 1024 * 1024 });
     fs.writeFileSync(path.join(reports, `${name}.json`), result.stdout || '{}');
@@ -46,7 +46,7 @@ for (const entry of manifests) {
   }
 }
 
-if (!summaries.length) throw new Error('No matching composition names. Use blueprint-desktop, blueprint-mobile, process-desktop, process-mobile, chapter-desktop, chapter-mobile.');
+if (!summaries.length) throw new Error('No matching composition names. Use blueprint-desktop, blueprint-mobile, process-desktop, process-mobile, chapter-desktop, chapter-mobile, threshold-desktop, threshold-mobile, passage-desktop, passage-mobile.');
 const summaryPath = path.join(reports, 'latest-summary.json');
 const previous = requested.size && fs.existsSync(summaryPath) ? JSON.parse(fs.readFileSync(summaryPath, 'utf8')) : [];
 const summaryByName = new Map(previous.map(summary => [summary.name, summary]));

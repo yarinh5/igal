@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {architecturePose,heroMode} from '../lib/hero-motion';
+import {architecturePose,heroMode,renderProfile} from '../lib/hero-motion';
 
 test('portrait mobile gets a short 3D story; short landscape and reduced motion remain natural',()=>{
  assert.equal(heroMode(390,844,false),'portrait');
@@ -24,4 +24,11 @@ test('camera path is seekable and ends with an assembled building',()=>{
  }
  assert.deepEqual(architecturePose(-1,false),architecturePose(0,false));
  assert.deepEqual(architecturePose(2,true),architecturePose(1,true));
+});
+
+test('mobile renderer quality adapts without disabling the scroll story',()=>{
+ assert.deepEqual(renderProfile(true,4,4,3),{tier:'compact',dpr:1,antialias:false});
+ assert.deepEqual(renderProfile(true,8,8,3),{tier:'mobile',dpr:1.2,antialias:true});
+ assert.deepEqual(renderProfile(false,4,4,2),{tier:'desktop',dpr:1.6,antialias:true});
+ assert.deepEqual(renderProfile(true,8,8,.8),{tier:'mobile',dpr:.8,antialias:true});
 });

@@ -1,6 +1,6 @@
 'use client';
 import {useEffect,useRef} from 'react';
-import {architecturePose} from '@/lib/hero-motion';
+import {architecturePose,renderProfile} from '@/lib/hero-motion';
 
 export type ArchitectureSeek=(progress:number)=>void;
 type Props={enabled:boolean;mobile:boolean;onReady:(seek:ArchitectureSeek|null)=>void};
@@ -14,11 +14,13 @@ export default function ArchitectureScene({enabled,mobile,onReady}:Props){
   let release=()=>{};
   import('three').then(THREE=>{
    if(disposed)return;
+   const device=navigator as Navigator&{deviceMemory?:number};
+   const profile=renderProfile(mobile,navigator.hardwareConcurrency||8,device.deviceMemory,devicePixelRatio);
    let renderer:import('three').WebGLRenderer;
-   try{renderer=new THREE.WebGLRenderer({alpha:true,antialias:true,powerPreference:'low-power'});}
+   try{renderer=new THREE.WebGLRenderer({alpha:true,antialias:profile.antialias,powerPreference:profile.tier==='desktop'?'high-performance':'low-power'});}
    catch{host.dataset.fallback='true';return;}
-   const pixelRatio=Math.min(devicePixelRatio,mobile?1.25:1.6);
-   renderer.setPixelRatio(pixelRatio);
+   renderer.setPixelRatio(profile.dpr);
+   host.dataset.quality=profile.tier;host.dataset.dpr=profile.dpr.toFixed(2);
    renderer.setClearColor(0x181c1b,0);
    renderer.outputColorSpace=THREE.SRGBColorSpace;
    renderer.toneMapping=THREE.ACESFilmicToneMapping;
@@ -136,10 +138,11 @@ export default function ArchitectureScene({enabled,mobile,onReady}:Props){
      batch.mesh.instanceMatrix.needsUpdate=true;
     }
     model.rotation.y=pose.rotation;
+    model.position.y=pose.modelLift;
     materials.window.emissiveIntensity=pose.windowGlow;
     grid.material.opacity=.045+pose.blueprintOpacity*.3;
     camera.position.set(Math.sin(pose.angle)*pose.distance,pose.elevation,Math.cos(pose.angle)*pose.distance);
-    camera.lookAt(0,pose.targetY,0);
+    camera.lookAt(pose.targetX,pose.targetY,0);
     renderer.render(scene,camera);
     host.dataset.ready='true';host.dataset.renders=String(++draws);
     host.dataset.pose=progress.toFixed(4);host.dataset.drawCalls=String(renderer.info.render.calls);
@@ -161,7 +164,7 @@ export default function ArchitectureScene({enabled,mobile,onReady}:Props){
     renderer.domElement.removeEventListener('webglcontextlost',lost);renderer.domElement.removeEventListener('webglcontextrestored',restored);
     box.dispose();batches.forEach(({mesh})=>mesh.dispose());Object.values(materials).forEach(m=>m.dispose());
     grid.geometry.dispose();grid.material.dispose();shadowTexture.dispose();shadowGeometry.dispose();shadowMaterial.dispose();
-    renderer.dispose();renderer.domElement.remove();delete host.dataset.ready;
+    renderer.dispose();renderer.domElement.remove();delete host.dataset.ready;delete host.dataset.quality;delete host.dataset.dpr;
    };
   }).catch(()=>{if(!disposed)host.dataset.fallback='true'});
   return()=>{disposed=true;release()};
