@@ -1,0 +1,8 @@
+import type { SVGProps } from 'react';
+export function Icon({name,...props}:SVGProps<SVGSVGElement> & {name:'arrow'|'diagonal'|'close'|'menu'|'plus'|'minus'|'download'|'search'|'phone'|'mail'|'pin'|'play'|'check'|'motion'|'chevron'}) {
+  const paths:Record<string,React.ReactNode> = {
+    arrow:<><path d="M19 12H5M11 6l-6 6 6 6"/></>,diagonal:<><path d="M17 17 7 7M7 17V7h10"/></>,close:<path d="m6 6 12 12M6 18 18 6"/>,menu:<><path d="M4 8h16M4 16h16"/></>,plus:<path d="M12 5v14M5 12h14"/>,minus:<path d="M5 12h14"/>,download:<><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></>,search:<><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></>,phone:<path d="m7 3-4 2c-1 9 7 17 16 16l2-4-5-3-2 2c-3-1-5-3-6-6l2-2z"/>,mail:<><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m3 6 9 7 9-7"/></>,pin:<><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></>,play:<path d="m9 5 11 7-11 7Z"/>,check:<path d="m5 12 5 5L20 7"/>,motion:<><path d="M3 12c3-8 6 8 9 0s6 8 9 0M4 5h6M14 19h6"/></>,chevron:<path d="m15 5-7 7 7 7"/>,
+  };
+  return <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>{paths[name]}</svg>;
+}
+export function BrandMark({className=''}:{className?:string}) {return <svg className={className} width="39" height="42" viewBox="0 0 39 42" fill="none" aria-hidden="true"><path d="M12 34V12L19.5 3V34M23 34V8L30 15V34" stroke="currentColor" strokeWidth="3"/><path d="M3 34 9 26v8H3ZM33 26l6 8h-6v-8Z" fill="currentColor"/></svg>}

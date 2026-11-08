@@ -1,0 +1,4 @@
+import {notFound,redirect} from 'next/navigation';
+import source from '@/content/source-pages.json';
+const direct:Record<string,string>={'צור-קשר':'/contact','פרויקטים-בביצוע':'/projects','פרויקטים-שהסתיימו':'/projects','copy-of-דירה-בהנחה-הגרלות':'/about','מול-ירדן-שיווק':'/lotteries','services-5':'/projects/eyal-seven','services-1':'/commercial','s-projects-side-by-side':'/lotteries','inquiry-services-page':'/contact'};
+export default async function Legacy({params}:{params:Promise<{legacy:string[]}>}){let path:string;try{path=decodeURIComponent((await params).legacy.join('/'))}catch{notFound()}if(direct[path])redirect(direct[path]);const page=source.find(p=>decodeURIComponent(new URL(p.url).pathname).slice(1)===path);const id=page?.title.match(/(?:הגרלה|מס')\s*(\d{4})/)?.[1]||page?.title.match(/(19[67]\d|2092)/)?.[1];if(id)redirect('/lotteries/'+id);notFound()}

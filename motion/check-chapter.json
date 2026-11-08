@@ -1,0 +1,314 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 3,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 0,
+        "selector": "h1.chapter-word.word-1",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 678.36,
+          "top": 443.66,
+          "right": 921.66,
+          "bottom": 573.2,
+          "width": 243.3,
+          "height": 129.53
+        },
+        "containerSelector": "div.chapter-copy > div:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 675.17,
+          "top": 294.7,
+          "right": 924.84,
+          "bottom": 424.23,
+          "width": 249.67,
+          "height": 129.53
+        },
+        "overflow": {
+          "bottom": 148.97
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 678.36,
+          "y": 443.66,
+          "width": 243.3,
+          "height": 129.53
+        },
+        "firstSeen": 0,
+        "lastSeen": 1.5,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          0,
+          1.5
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 0,
+        "selector": "p.chapter-word.word-2",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 682.02,
+          "top": 573.2,
+          "right": 918,
+          "bottom": 702.73,
+          "width": 235.98,
+          "height": 129.53
+        },
+        "containerSelector": "div.chapter-copy > div:nth-of-type(2)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 678.83,
+          "top": 424.23,
+          "right": 921.19,
+          "bottom": 553.77,
+          "width": 242.36,
+          "height": 129.53
+        },
+        "overflow": {
+          "bottom": 148.96
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 682.02,
+          "y": 573.2,
+          "width": 235.98,
+          "height": 129.53
+        },
+        "firstSeen": 0,
+        "lastSeen": 1.5,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          0,
+          1.5
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 0,
+        "selector": "p.chapter-word.word-3",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 672.56,
+          "top": 702.73,
+          "right": 927.44,
+          "bottom": 832.26,
+          "width": 254.88,
+          "height": 129.53
+        },
+        "containerSelector": "div.chapter-copy > div:nth-of-type(3)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 669.38,
+          "top": 553.77,
+          "right": 930.63,
+          "bottom": 683.3,
+          "width": 261.25,
+          "height": 129.53
+        },
+        "overflow": {
+          "bottom": 148.96
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 672.56,
+          "y": 702.73,
+          "width": 254.88,
+          "height": 129.53
+        },
+        "firstSeen": 0,
+        "lastSeen": 3,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          0,
+          1.5,
+          3
+        ]
+      },
+      {
+        "code": "text_box_overflow",
+        "severity": "info",
+        "time": 3,
+        "selector": "p.chapter-word.word-3",
+        "message": "Text extends outside its nearest visual/container box.",
+        "rect": {
+          "left": 672.56,
+          "top": 619.19,
+          "right": 927.44,
+          "bottom": 710.19,
+          "width": 254.88,
+          "height": 91
+        },
+        "containerSelector": "div.chapter-copy > div:nth-of-type(3)",
+        "text": "מיקום.",
+        "fixHint": "Text is 255px x 91px inside 261px x 130px and overflows by up to 27px; increase the container height to at least ~156px, or allow wrapping with max-width/fitTextFontSize.",
+        "containerRect": {
+          "left": 669.38,
+          "top": 553.77,
+          "right": 930.63,
+          "bottom": 683.3,
+          "width": 261.25,
+          "height": 129.53
+        },
+        "overflow": {
+          "bottom": 26.89
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 672.56,
+          "y": 619.19,
+          "width": 254.88,
+          "height": 91
+        },
+        "firstSeen": 3,
+        "lastSeen": 3,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          3
+        ]
+      }
+    ],
+    "duration": 7,
+    "samples": [
+      0,
+      1.5,
+      3,
+      4.5,
+      6.9
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 4,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "specPath": "F:\\project love\\igal\\yigal-site\\public\\compositions\\chapter\\index.motion.json",
+    "samples": 141
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      0,
+      1.5,
+      3,
+      4.5,
+      6.9
+    ],
+    "checked": 19,
+    "passed": 19
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 56
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "audio_none",
+        "severity": "info",
+        "message": "The film has no sound: no clip in it plays audio.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ]
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": true,
+    "files": [
+      ".hyperframes\\artifacts\\snapshots\\03f92c57-c27c-4331-982c-f5f69a116704\\frame-00-at-0.0s.png",
+      ".hyperframes\\artifacts\\snapshots\\03f92c57-c27c-4331-982c-f5f69a116704\\frame-01-at-1.5s.png",
+      ".hyperframes\\artifacts\\snapshots\\03f92c57-c27c-4331-982c-f5f69a116704\\frame-02-at-3.0s.png",
+      ".hyperframes\\artifacts\\snapshots\\03f92c57-c27c-4331-982c-f5f69a116704\\frame-03-at-4.5s.png",
+      ".hyperframes\\artifacts\\snapshots\\03f92c57-c27c-4331-982c-f5f69a116704\\frame-04-at-6.9s.png"
+    ],
+    "times": [
+      0,
+      1.5,
+      3,
+      4.5,
+      6.9
+    ],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "a1019e5f-8470-4c06-a102-1f27d793fcf1",
+    "revision": null,
+    "report": "F:\\project love\\igal\\yigal-site\\public\\compositions\\chapter\\.hyperframes\\artifacts\\checks\\a1019e5f-8470-4c06-a102-1f27d793fcf1.json",
+    "attribution": "unversioned"
+  },
+  "_meta": {
+    "version": "0.9.23",
+    "latestVersion": "0.9.23",
+    "updateAvailable": false,
+    "checkedAt": "2026-11-08T10:35:06.155Z",
+    "skillsOutdated": 4,
+    "skillsMissing": 0
+  }
+}

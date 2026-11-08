@@ -1,0 +1,6 @@
+import {notFound} from 'next/navigation';
+import {lotteries} from '@/lib/lotteries';
+import {LotteryLibrary} from '@/components/site/LotteryLibrary';
+import {Icon} from '@/components/site/Icons';
+export async function generateMetadata({params}:{params:Promise<{id:string}>}){return {title:'הגרלה '+(await params).id}}
+export default async function LotteryDetail({params}:{params:Promise<{id:string}>}){const {id}=await params;const l=lotteries.find(x=>x.id===id);if(!l)notFound();return <main id="main" className="inner-page"><section className="lottery-detail-heading section"><a href="/lotteries" className="breadcrumb">כל ההגרלות <Icon name="arrow"/></a><div className="lottery-detail-title"><div><span className="eyebrow">מול ירדן · בית שאן</span><h1>הגרלה <bdi>{l.id}</bdi></h1><p>מתחם {l.complexId}</p></div><a href={l.sourceUrl} className="text-link" target="_blank" rel="noreferrer">עדכוני התקדמות בפרויקט <Icon name="diagonal"/></a></div><p className="lottery-intro-text">מסמכי הפרויקט ותכניות הדירות, במקום אחד. בחרו סוג מסמך או חפשו לפי הבניין והדירה שלכם.</p></section><section className="section library-section"><LotteryLibrary lottery={l}/></section><section className="lottery-help section"><h2>צריכים עזרה?</h2><p>אנחנו כאן לכל שאלה בנוגע לפרויקט.</p><a className="button button-dark" href="/contact">יצירת קשר <Icon name="arrow"/></a></section></main>}

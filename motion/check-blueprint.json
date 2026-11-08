@@ -1,0 +1,177 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 8,
+    "samples": [
+      0,
+      2,
+      4,
+      6,
+      7.9
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "specPath": "F:\\project love\\igal\\yigal-site\\public\\compositions\\blueprint\\index.motion.json",
+    "samples": 161
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      0,
+      2,
+      4,
+      6,
+      7.9
+    ],
+    "checked": 14,
+    "passed": 14
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 23 px (2.6% of the 900 px short side, what a phone can read) and 2 text elements stay under it for 0.5 s or more, the smallest \"01 / ARCHITECTURE\" at 16 px: set reading text to at least 23 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "01 / ARCHITECTURE",
+        "selector": "div.corner-note",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 85,
+          "y": 824,
+          "width": 195.45,
+          "height": 21
+        },
+        "time": 5.75,
+        "times": [
+          1,
+          5.75
+        ],
+        "fontPx": 16,
+        "floorPx": 23,
+        "seconds": 2.25,
+        "elements": [
+          {
+            "selector": "div.corner-note",
+            "text": "01 / ARCHITECTURE",
+            "fontPx": 16,
+            "time": 5.75,
+            "seconds": 2.25
+          },
+          {
+            "selector": "span.eyebrow",
+            "text": "YIGAL GROUP",
+            "fontPx": 18,
+            "time": 1,
+            "seconds": 7
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 64
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "audio_none",
+        "severity": "info",
+        "message": "The film has no sound: no clip in it plays audio.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ]
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": true,
+    "files": [
+      ".hyperframes\\artifacts\\snapshots\\c057e1ce-696b-4acb-9d84-bcb3e0db5232\\frame-00-at-0.0s.png",
+      ".hyperframes\\artifacts\\snapshots\\c057e1ce-696b-4acb-9d84-bcb3e0db5232\\frame-01-at-2.0s.png",
+      ".hyperframes\\artifacts\\snapshots\\c057e1ce-696b-4acb-9d84-bcb3e0db5232\\frame-02-at-4.0s.png",
+      ".hyperframes\\artifacts\\snapshots\\c057e1ce-696b-4acb-9d84-bcb3e0db5232\\frame-03-at-6.0s.png",
+      ".hyperframes\\artifacts\\snapshots\\c057e1ce-696b-4acb-9d84-bcb3e0db5232\\frame-04-at-7.9s.png"
+    ],
+    "times": [
+      0,
+      2,
+      4,
+      6,
+      7.9
+    ],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "c4747474-ae79-4174-8aa9-a81f129bcaa0",
+    "revision": null,
+    "report": "F:\\project love\\igal\\yigal-site\\public\\compositions\\blueprint\\.hyperframes\\artifacts\\checks\\c4747474-ae79-4174-8aa9-a81f129bcaa0.json",
+    "attribution": "unversioned"
+  },
+  "_meta": {
+    "version": "0.9.23",
+    "latestVersion": "0.9.23",
+    "updateAvailable": false,
+    "checkedAt": "2026-11-08T10:35:06.155Z",
+    "skillsOutdated": 4,
+    "skillsMissing": 0,
+    "updateNotice": "For the user: 4 installed HyperFrames skills are out of date (this run is HyperFrames CLI 0.9.23). To update them, run: npx hyperframes update"
+  }
+}

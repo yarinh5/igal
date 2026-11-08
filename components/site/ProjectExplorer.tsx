@@ -1,0 +1,5 @@
+'use client';
+import {useState} from 'react';
+import {projects} from '@/lib/projects';
+import {ProjectCard} from './ProjectCard';
+export function ProjectExplorer(){const [filter,setFilter]=useState<'all'|'active'|'completed'>('all');const filtered=projects.filter(p=>filter==='all'||p.category===filter);return <><div className="filter-tabs" role="group" aria-label="סינון פרויקטים">{([['all','כל הפרויקטים'],['active','בשיווק ובביצוע'],['completed','פרויקטים מאוכלסים']] as const).map(([id,label])=><button key={id} aria-pressed={filter===id} onClick={()=>setFilter(id)}>{label}<span>{id==='all'?projects.length:projects.filter(p=>p.category===id).length}</span></button>)}</div><p className="sr-only" aria-live="polite">מוצגים {filtered.length} פרויקטים</p><div className="projects-grid">{filtered.map((p,i)=><ProjectCard key={p.slug} project={p} index={i}/>)}</div><div className="upcoming-note"><span className="eyebrow">בהמשך הדרך</span><h3>צמודי קרקע</h3><p>מידע נוסף על הפרויקט יפורסם בהמשך.</p><a className="text-link" href="/contact">לקבלת פרטים</a></div></>}

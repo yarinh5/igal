@@ -1,0 +1,3101 @@
+[
+  {
+    "id": "2092",
+    "complexId": "71414",
+    "sourceUrl": "https://www.yigal-group.com/copy-of-%D7%94%D7%92%D7%A8%D7%9C%D7%94-%D7%9E%D7%A1%D7%A4%D7%A8-1970",
+    "description": "בפאתי העיר בית שאן שבצפון הארץ , מוקמת שכונת בוטיק הכוללת 38 בניינים בין 4-10 קומות . הפרויקט עתיד לכלול 528 יחידות דיור מפנקות הבנויות ברמה הגבוהה ביותר, עם סטנדרטים גבוהים.",
+    "documents": [
+      {
+        "label": "ג' 4",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_14a0ef76c2e34d3c9537029f72dda79c.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מפרט מכר",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_21be93a62bcf4a588902c1f448a9823e.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מבט על פרויקט מול ירדן הגרלה 2092",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_47644bb277c8494b8cf9686380453281.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מצגת כנס זוכים הגרלות 2092 מול ירדן בית שאן",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_cf210d9faa7c4a7b8f79880ac9af2533.pdf",
+        "category": "כנס זוכים"
+      },
+      {
+        "label": "הקלטת כנס זוכים הגרלות 2092 מול ירדן בית שאן",
+        "url": "https://drive.google.com/file/d/1v7uHqgqWx-R6JFiJMrbhSXuDiM2xJXWS/view?usp=sharing",
+        "category": "כנס זוכים"
+      },
+      {
+        "label": "ייפוי כח לבן/ בת הזוג",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_129cf65fd6bb4be78dd992a5b6e3fe10.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "ייפוי כח נוטריוני לצד ג'",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4fd4805d9e9545a6b4e89ab4544f1b09.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "חוזה מכר חתום ע\"י חברת הבקרה",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b22c4a2fe4a44f6c9a743c09ac1f7bc3.pdf",
+        "category": "מסמכים משפטיים"
+      }
+    ],
+    "buildings": [
+      {
+        "id": "E39",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין E39 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_668bd797e7c042c29c7b34aede17cdac.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין E39 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8af28839e23a4095a59f11f1c0c8e3f1.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין E39 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_06a8aa0c37bd498caf99ce6dcce13858.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין E39 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_078b352922594f6482d0ebdaabe13cf5.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין E39 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_81e1e51b5d4f48e6b72c4003838e5203.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין E39 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_bc34079a107448e0aa991681e007109a.pdf"
+          }
+        ]
+      },
+      {
+        "id": "E40",
+        "apartments": [
+          {
+            "number": "5",
+            "label": "בניין E40 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0a09cd87c62841f7b838890c3b342864.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין E40 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_93bb3fb9a0ff4b2385f14eb9afd5ebbf.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין E40 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a9e83065955a46b8becd486b95da7760.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין E40 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4cc340f806254f6caba9409f8e2f3011.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין E40 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7240e074d5654155b77f222209421ad9.pdf"
+          },
+          {
+            "number": "10",
+            "label": "בניין E40 · דירה 10",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_fbf27934ad264bc5b95ebf26ec6b40bf.pdf"
+          },
+          {
+            "number": "11",
+            "label": "בניין E40 · דירה 11",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_cb2666d03f0040feabe13dfe6ae87bca.pdf"
+          }
+        ]
+      },
+      {
+        "id": "E41",
+        "apartments": [
+          {
+            "number": "4",
+            "label": "בניין E41 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_dc678c0e1d4343c190776d7bcdac1806.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין E41 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_fe582928b0744abebba89ca75f170b7b.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין E41 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5579cd3887b34221b53c4bbaad0c4823.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין E41 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_bed39aa2b5a14cdc87b1cfa3d9a640c6.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין E41 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ff15fb88153f44fa9ab070ccad1d03fb.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין E41 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_acf9c57bf1dd40dfb96fea4dc7df08af.pdf"
+          }
+        ]
+      },
+      {
+        "id": "E42",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין E42 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_85b66dc61e5840b5beea5ac1330e2370.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין E42 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0ffeef6cf0f648a2892d6f26b89be4b2.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין E42 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c003fb66340d45abbe21078a22aaff99.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין E42 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_85a3b7aac3aa496091b971ea80e9ee8e.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין E42 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_13fe2dfed24f4605830fb9c37aa76b4c.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין E42 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a9b703d4e09c45fb85f821809ca36a29.pdf"
+          }
+        ]
+      },
+      {
+        "id": "E43",
+        "apartments": [
+          {
+            "number": "4",
+            "label": "בניין E43 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_42e32194a07e49da8f7ad13398929ce6.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין E43 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_f027bbb3c6a54d38b3c3cb2aa90afffe.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין E43 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_594e1cb9c782497cbc45c741f4d12556.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין E43 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_2c5dcb99161f4236a2b55a27ce6439b7.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין E43 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_17532f8866db4b0eb2dc52d44cf4622b.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין E43 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_06ba226246104e3e9c7ece9538a29200.pdf"
+          }
+        ]
+      },
+      {
+        "id": "E44",
+        "apartments": [
+          {
+            "number": "4",
+            "label": "בניין E44 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_2b1aba4f5a8b4f1eafd18dac832762b2.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין E44 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_22b9093b7e2f47998e0e12ec329964e4.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין E44 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0b905d47d2d64e68b8cdd7044b8ef2b7.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין E44 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c5f33aa5e3ba4fc9af391eb212b874b2.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין E44 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c7117e9e4deb49c690e5d5c692903190.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין E44 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_93af772530294609b0c4fdda24d6e718.pdf"
+          }
+        ]
+      },
+      {
+        "id": "E45",
+        "apartments": [
+          {
+            "number": "4",
+            "label": "בניין E45 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_1991ad6626f04b64b3fbc48091d051a1.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין E45 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_9e9b71ca0b544d0a8b8761671e0394a8.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין E45 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_e626d1c2ba3048cbbab53f960f2a5f85.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין E45 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ca9a32e1373e4eb1ae484676892e51bf.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין E45 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_fbd9e049cec04d3d8ba73888ca38aa4d.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין E45 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_580adaa3a79f47ba81b165785ac0a29a.pdf"
+          }
+        ]
+      },
+      {
+        "id": "E46",
+        "apartments": [
+          {
+            "number": "4",
+            "label": "בניין E46 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0a6c77e5ab69401a9d7d8074910ed52f.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין E46 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_401703b8ba3a4d2f8709320b716a9ac4.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין E46 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_76fd299a1dcb4d418e623d69508f1e30.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין E46 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_59c0a9fe2db44cb0b145db28c3942913.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין E46 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_87cfbc06c92b4e1188f295c6102eb44e.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין E46 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7efdebea24994795bee088963f5661ba.pdf"
+          }
+        ]
+      },
+      {
+        "id": "E47",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין E47 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_460e955ee6554f5e912f84767a96242c.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין E47 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_24da480b802f4663bf64a09798c0268a.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין E47 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_fadce0d1454b4da09f930089361cd0a1.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין E47 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_778d846bbd764d6e93894df7d317aeac.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין E47 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_3638c0b6f7c141aa85187462dad313b3.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין E47 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_403b3f759a6e42819b26281abd238c7f.pdf"
+          }
+        ]
+      },
+      {
+        "id": "E48",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין E48 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8ef4d99c326a48719cc943a623ee8910.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין E48 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_48da8053b18343a58fe8a6c68b0b4cc4.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין E48 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7a83a43f494541e5baffa64de10c34f5.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין E48 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7434a041574046288ff3fb6a2df9cd4d.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין E48 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_e7673dc4159d426194c2c1b424c3b33d.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין E48 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_886f63a5fbdb40eca351f25f76c6a194.pdf"
+          }
+        ]
+      },
+      {
+        "id": "E49",
+        "apartments": [
+          {
+            "number": "5",
+            "label": "בניין E49 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_e1cda58fa3a148ccbd61b12fc183fd3d.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין E49 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_2ae311d014ab452bb52bb462617c55bb.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין E49 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ac6b92ff04684fe49cc983562aa811c0.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין E49 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_065fdb4eb76c4d7789c500127be3b9ae.pdf"
+          },
+          {
+            "number": "10",
+            "label": "בניין E49 · דירה 10",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_25deba6c0434441d9bea806983525e59.pdf"
+          },
+          {
+            "number": "11",
+            "label": "בניין E49 · דירה 11",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_387a26f85b684f4da74f76fe62e5c2e9.pdf"
+          }
+        ]
+      },
+      {
+        "id": "E50",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין E50 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c838e87ca7564318bff1c8e74a148aa9.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין E50 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_1c51f5d10d9a467fbeb57555fb556324.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין E50 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c51566739ccb4172bb65f28c0314135e.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין E50 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_554de704723d488ea8cc525419a8bc69.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין E50 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b36774574af347bfa73eede7496d24ec.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין E50 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a0ad4821f8174b7cb55e6603527862cb.pdf"
+          }
+        ]
+      },
+      {
+        "id": "E51",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין E51 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a16a17cb6cc447e0ae056600b87252e3.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין E51 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5dfad42a7d684d558b636c8f68bf277a.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין E51 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_951e323bf2dc49eeb110cdfacfee2dc7.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין E51 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5ff508f393964ab5a73795219bbd5343.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין E51 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_f00f3199443c48f8a63bd8b50b1d7cde.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין E51 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_481b4c2e3c514854bbce4ed1adf4cd2a.pdf"
+          }
+        ]
+      }
+    ],
+    "floorPlans": [],
+    "apartmentSourceUrl": "https://www.yigal-group.com/%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-2092"
+  },
+  {
+    "id": "1975",
+    "complexId": "61526",
+    "sourceUrl": "https://www.yigal-group.com/copy-of-%D7%94%D7%92%D7%A8%D7%9C%D7%94-%D7%9E%D7%A1%D7%A4%D7%A8-1968-2",
+    "description": "בפאתי העיר בית שאן שבצפון הארץ , מוקמת שכונת בוטיק הכוללת 38 בניינים בין 4-10 קומות . הפרויקט עתיד לכלול 528 יחידות דיור מפנקות הבנויות ברמה הגבוהה ביותר, עם סטנדרטים גבוהים.",
+    "documents": [
+      {
+        "label": "ג' 4",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_27e1e2df1a6e4976a4e67afb0d0a03c6.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מפרט מכר",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4a7364d43d3f4413bee9c0aa0b2dc793.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מבט על פרויקט מול ירדן הגרלה 1975",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_e11bd06274664c608512a8c17f81ffcb.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "חוזה מכר חתום ע\"י חברת הבקרה-מתחם 61526",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_f5386127c56345fc8bc1fc040342a088.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "ייפוי כח לבן/ בת הזוג",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_37fd900400304afc833348fb95aa05db.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "ייפוי כח נוטריוני לצד ג'",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_08ca7f9714194fe7928104a838f196ea.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "מצגת כנס זוכים הגרלות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_100b242940db449f881b7c023b927610.pdf",
+        "category": "כנס זוכים"
+      },
+      {
+        "label": "הקלטה למפגש MEET כנס זוכים",
+        "url": "https://drive.google.com/file/d/1M7ZO7KoaIvXNG99v3UbEpiG6USlc6x_V/view?usp=sharing",
+        "category": "כנס זוכים"
+      },
+      {
+        "label": "היתר בנייה מגרש 330",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_50be8737c57b401f9629f9735f2b3c6e.pdf",
+        "category": "היתרים"
+      }
+    ],
+    "buildings": [
+      {
+        "id": "A1",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין A1 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_325d35fd2ded489d8a8c47134a36d756.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין A1 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_43c4a3c4ac9c4490ba888f19ed015792.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין A1 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_2d2a15f689a04d0294fdf22d86c0b18b.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין A1 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_187923bef918401b8dbb3e4d853d5725.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין A1 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d362b9e160b8441087ea97190f0c81fa.pdf"
+          },
+          {
+            "number": "10",
+            "label": "בניין A1 · דירה 10",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_9ad25a37f4704c3cb9f3154a5a1d5868.pdf"
+          },
+          {
+            "number": "11",
+            "label": "בניין A1 · דירה 11",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_79c797d09374468793958676571b3ff7.pdf"
+          },
+          {
+            "number": "13",
+            "label": "בניין A1 · דירה 13",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_73c42aaad8e043319f6c3d1e0efdb38a.pdf"
+          },
+          {
+            "number": "14",
+            "label": "בניין A1 · דירה 14",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_e4ac3b55b5ab49b5b1102a83d47d76ea.pdf"
+          },
+          {
+            "number": "16",
+            "label": "בניין A1 · דירה 16",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b367e60324ba4c049bd2530d2727d125.pdf"
+          },
+          {
+            "number": "17",
+            "label": "בניין A1 · דירה 17",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_354bcb2a4fc94526ae0e3f07aa4785f9.pdf"
+          },
+          {
+            "number": "18",
+            "label": "בניין A1 · דירה 18",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0679dacdeed3481c8fff2cd7e58f463d.pdf"
+          },
+          {
+            "number": "19",
+            "label": "בניין A1 · דירה 19",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_25cc5b4e79be4aac8a2aaa92059f8f5f.pdf"
+          },
+          {
+            "number": "21",
+            "label": "בניין A1 · דירה 21",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_6091bdb928374959a6e786849f9326fc.pdf"
+          },
+          {
+            "number": "22",
+            "label": "בניין A1 · דירה 22",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d0fef70450c54ed7861233e8ca5313dc.pdf"
+          },
+          {
+            "number": "23",
+            "label": "בניין A1 · דירה 23",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d9241b82d1544c70b55bc86862c62706.pdf"
+          },
+          {
+            "number": "24",
+            "label": "בניין A1 · דירה 24",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0232a9504cfc4302b8dfd2e13746f0cf.pdf"
+          },
+          {
+            "number": "28",
+            "label": "בניין A1 · דירה 28",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_2cb4d5cdbe954520a3a826605b39c7c4.pdf"
+          },
+          {
+            "number": "29",
+            "label": "בניין A1 · דירה 29",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_647ba5c18eb047b4b52015c95a374897.pdf"
+          },
+          {
+            "number": "30",
+            "label": "בניין A1 · דירה 30",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d4ba0e552e0744589167245ec245613a.pdf"
+          },
+          {
+            "number": "31",
+            "label": "בניין A1 · דירה 31",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ea0d6db08397482ea9df87bd34e3d029.pdf"
+          },
+          {
+            "number": "32",
+            "label": "בניין A1 · דירה 32",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_33d1ce0703294fc9a6854b386c144d53.pdf"
+          }
+        ]
+      }
+    ],
+    "floorPlans": [],
+    "apartmentSourceUrl": "https://www.yigal-group.com/%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1969"
+  },
+  {
+    "id": "1974",
+    "complexId": "61557",
+    "sourceUrl": "https://www.yigal-group.com/copy-of-%D7%94%D7%92%D7%A8%D7%9C%D7%94-%D7%9E%D7%A1-1971-1",
+    "description": "בפאתי העיר בית שאן שבצפון הארץ , מוקמת שכונת בוטיק הכוללת 38 בניינים בין 4-10 קומות . הפרויקט עתיד לכלול 528 יחידות דיור מפנקות הבנויות ברמה הגבוהה ביותר, עם סטנדרטים גבוהים.",
+    "documents": [
+      {
+        "label": "ג' 4",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d80beff9704b44629d849e45bbfe3ae9.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מפרט מכר",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_60535815017d4e19906bfeff023c8cbc.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מבט על פרויקט מול ירדן הגרלה 1974",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_235eb0e1316841aeb7652a9eee8ecb98.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "חוזה מכר חתום ע\"י חברת הבקרה-מתחם 61557",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_3374dab8f3454f459b3b72abce443b8c.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "ייפוי כח לבן/ בת הזוג",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ba8cd218169f4d2e944e32e4d0d69218.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "ייפוי כח נוטריוני לצד ג'",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_82e71bf415764233a2998ad75cc6e1ec.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "מצגת כנס זוכים הגרלות 1972 ו 1974מול ירדן בית שאן",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4f4493e8584a4414b4ff4d0d4f02557a.pdf",
+        "category": "כנס זוכים"
+      },
+      {
+        "label": "היתר בנייה-הגרלה 1974 מגרש 312",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5ad2dc3da7a447c583e090a34342cbfa.pdf",
+        "category": "היתרים"
+      },
+      {
+        "label": "היתר בנייה-הגרלה 1974 מגרש 313",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_726d1e8ee1cf4b5c9f87348a4107f9e8.pdf",
+        "category": "היתרים"
+      },
+      {
+        "label": "דירות BCM25",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4a501c9be50e43c5b6252c733472b513.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "דירות BC25",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8d03156b1ec54837b18b590447db7e4c.pdf",
+        "category": "תכנון ומפרט"
+      }
+    ],
+    "buildings": [
+      {
+        "id": "B6",
+        "apartments": [
+          {
+            "number": "4",
+            "label": "בניין B6 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_3bad3d2496094e94bdae53c5b8157d53.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין B6 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d0fa45633e6046b191e419e7b59c89dc.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין B6 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a181e3520f1a47c9a90846a87d57af87.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין B6 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_1bce684cb56b4f76b8057d5ef8d0021b.pdf"
+          },
+          {
+            "number": "10",
+            "label": "בניין B6 · דירה 10",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0bb923af87ca497d96ad17fc7c814b2a.pdf"
+          },
+          {
+            "number": "12",
+            "label": "בניין B6 · דירה 12",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c80ba621741e44dba9ec468e0b761599.pdf"
+          },
+          {
+            "number": "13",
+            "label": "בניין B6 · דירה 13",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_9fc819b8f7a84223bb3ee5d349ad35b9.pdf"
+          },
+          {
+            "number": "14",
+            "label": "בניין B6 · דירה 14",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b91f9b81ecf74ffb9eaa1dacaf3101e5.pdf"
+          }
+        ]
+      },
+      {
+        "id": "B8",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין B8 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_005169f8808646d3a8bd676f6289c6ef.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין B8 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8af1a30aa72340c0b430c3afde3e2ff9.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין B8 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_10419bef47a64df7b42b0a6371946618.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין B8 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_f0ca779828824194b6e62e68e24355c3.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין B8 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8b3cbbe96c1840138fc76b9cb2048c2c.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין B8 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_36b254899adf407cac5fed52a24483d9.pdf"
+          }
+        ]
+      },
+      {
+        "id": "B10",
+        "apartments": [
+          {
+            "number": "2",
+            "label": "בניין B10 · דירה 2",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8302ed5164bf4309b6bc216759ec1195.pdf"
+          },
+          {
+            "number": "3",
+            "label": "בניין B10 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_42a2655c8d7c4bfe9d51397088716eb1.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין B10 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_6b1ead15dfbf4523818d027535729db2.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין B10 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b80c7e7116414479a6f6c3cd52e8e069.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין B10 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_89c9b984b3384e8cb79ac43472721356.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין B10 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_2e31677697f04a87852c579b6a72d6e6.pdf"
+          }
+        ]
+      },
+      {
+        "id": "B12",
+        "apartments": [
+          {
+            "number": "1",
+            "label": "בניין B12 · דירה 1",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8700318e4d5c46ab8d0295da3c97d7b4.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין B12 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a5556af74a7f4921baa8737f11f02a71.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין B12 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_69cd795dfb7e4950bc186ba080d48f70.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין B12 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_e6a9b9690cf446a7aff3466748c7094d.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין B12 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_e0e7dac68e4146a49012a51737332773.pdf"
+          },
+          {
+            "number": "10",
+            "label": "בניין B12 · דירה 10",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b21b21269da241f88ea792384759f350.pdf"
+          },
+          {
+            "number": "11",
+            "label": "בניין B12 · דירה 11",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_72eb20f4ca5e4ad68ed218d2853da732.pdf"
+          },
+          {
+            "number": "13",
+            "label": "בניין B12 · דירה 13",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_16ba425265bc4175b825a3d53b4d4fb2.pdf"
+          },
+          {
+            "number": "14",
+            "label": "בניין B12 · דירה 14",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_83ae73fa99934a198474d5f70f4b947b.pdf"
+          }
+        ]
+      }
+    ],
+    "floorPlans": [],
+    "apartmentSourceUrl": "https://www.yigal-group.com/%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1974"
+  },
+  {
+    "id": "1973",
+    "complexId": "61560",
+    "sourceUrl": "https://www.yigal-group.com/copy-of-%D7%94%D7%92%D7%A8%D7%9C%D7%94-%D7%9E%D7%A1-1971",
+    "description": "בפאתי העיר בית שאן שבצפון הארץ , מוקמת שכונת בוטיק הכוללת 38 בניינים בין 4-10 קומות . הפרויקט עתיד לכלול 528 יחידות דיור מפנקות הבנויות ברמה הגבוהה ביותר, עם סטנדרטים גבוהים.",
+    "documents": [
+      {
+        "label": "ג' 4",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5933d6254c5e4a6192e4857a148117cf.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מפרט מכר",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_aeabd7620aa74246a387669736cd6304.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מבט על פרויקט מול ירדן הגרלה 1973",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_9d310911ba5a44e5ad85330b47ab62d1.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מצגת כנס זוכים הגרלות 1971 ו 1973 מול ירדן בית שאן",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_6b748693fa2e4d4f8b92c91130489564.pdf",
+        "category": "כנס זוכים"
+      },
+      {
+        "label": "היתר בנייה",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_aebffc8d4c7d41639cd7cb340466b7b8.pdf",
+        "category": "היתרים"
+      },
+      {
+        "label": "חוזה מכר חתום ע\"י חברת הבקרה-מתחם 61560",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_914c9968f7d644d2a210861224430cb1.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "מסמך ליווי בנקאי",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ed2e58ea98d74468bf9df5c5af064539.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "כתב התחייבות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7ecf1946cf56402a891e883f000be4f5.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "תצהיר חסר קרקע",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a696d18e68794364a1221ad2a5649f55.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "ייפוי כח לבן/ בת הזוג",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ba8cd218169f4d2e944e32e4d0d69218.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "ייפוי כח נוטריוני לצד ג'",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_82e71bf415764233a2998ad75cc6e1ec.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "נספח תמורה",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d4ceb89cc25d49508dc8a741c89a1d98.pdf",
+        "category": "מסמכים משפטיים"
+      }
+    ],
+    "buildings": [
+      {
+        "id": "C13",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין C13 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_49ff18b79a3b43a1a48ab6dd7b6b8e7e.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין C13 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d36c91c1784e4226948ebc58505081c4.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין C13 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_e2eac0a1ad3b486890c3f77343303e7b.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין C13 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_449c1d08e51a4fa487884310108ac402.pdf"
+          }
+        ]
+      },
+      {
+        "id": "C14",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין C14 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_cde6851307b94c8eb58867cc7f5aa0b6.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין C14 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_155e9f25d63d4b669bd7326a123a2c1e.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין C14 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_bf0905b9357d470980c7a50f36f862a0.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין C14 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8e438dbffb6a499b98039d5eac6d3610.pdf"
+          }
+        ]
+      },
+      {
+        "id": "C15",
+        "apartments": [
+          {
+            "number": "2",
+            "label": "בניין C15 · דירה 2",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c87c112a4ad141ed855d7b58f501c69e.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין C15 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5bfad53087324f369ecd63055b6245a2.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין C15 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ea954f1491c349bdbfb10bb51857f04c.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין C15 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_934905a7a9cf46a9ad03d25d8cbb5385.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין C15 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ce23a645d6a94deca6abcf0442e5527d.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין C15 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_fd0d51d568864b40bacd7704008e2ffb.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין C15 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_39eb33a476d8427fa43f4c794c890a5a.pdf"
+          }
+        ]
+      },
+      {
+        "id": "C16",
+        "apartments": [
+          {
+            "number": "4",
+            "label": "בניין C16 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0cb814a0778e423780cd256e663fe0eb.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין C16 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c6880cf0bb3e42d39208a43a9c9d8f12.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין C16 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ec850ee6a02d48f5b148cd41748d5422.pdf"
+          }
+        ]
+      },
+      {
+        "id": "C18",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין C18 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_bdcf17eed08f4352ad40e24719912fd2.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין C18 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_f147e4b7f91a49f69363b246d90572ea.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין C18 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ae81883479034127b98ad95efc6bb8e6.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין C18 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5f0905d862ac4616a8fc79ad6863fee1.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין C18 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_eec4232b9ad5404090d301685997719a.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין C18 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_9d5fbf9a4457477090b1136a82d80469.pdf"
+          }
+        ]
+      },
+      {
+        "id": "C20",
+        "apartments": [
+          {
+            "number": "4",
+            "label": "בניין C20 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a90b8b893cab4f6e9473ab444395f8d2.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין C20 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_64421e33ff9e45c38363aa2d35f73350.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין C20 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a2d7a5b08e2e453eafeefdf4a0a6b138.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין C20 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_03fc6a66227e450984c0c53f98377fc6.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין C20 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_327907224221406b9383ffb9f912ef1e.pdf"
+          }
+        ]
+      }
+    ],
+    "floorPlans": [
+      {
+        "label": "בניין C13 דירה 3 טיפוס B15/1 דירה 4 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0d30a028259c4669aac57f7b5856f0aa.pdf"
+      },
+      {
+        "label": "בניין C13 דירה 4 טיפוס B15/1 דירה 4 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ce13663eee6440e8a71688358e89bf4b.pdf"
+      },
+      {
+        "label": "בניין C13 דירה 5 טיפוס B15/2 דירה 4 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_dfe5120377da49719c090690a32b30b2.pdf"
+      },
+      {
+        "label": "בניין C13 דירה 6 טיפוס 1B16/ דירה 3 חדרים, 2 מרפסות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a92c9bf7a018466989089a1b837e68b7.pdf"
+      },
+      {
+        "label": "בניין C14 דירה 3 טיפוס B19/1 דירה 4 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_6a75b3c109d14b4ba932567ee7e5605b.pdf"
+      },
+      {
+        "label": "בניין C14 דירה 4 טיפוס B19/1 דירה 4 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_e0626bac1d5849a6ae656d61fc0b2a96.pdf"
+      },
+      {
+        "label": "בניין C14 דירה 5 טיפוס B19/2 דירה 4 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_27afdd7f38aa4e0ca07888f9f114ba69.pdf"
+      },
+      {
+        "label": "בניין C15 דירה 2 טיפוס C20/1 דירה 5 חדרים, גינה",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_9c06706a05e64b179edbac9f25c95ea8.pdf"
+      },
+      {
+        "label": "בניין C14 דירה 6 טיפוס B20/1 דירה 3 חדרים, 2 מרפסות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_52e22d70554845ddabef0a4a4ab37e20.pdf"
+      },
+      {
+        "label": "בניין C16 דירה 3 טיפוס C23/1 דירה 3 חדרים, 2 מרפסות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c4d74df23dff4353ac80b53ac04493b7.pdf"
+      },
+      {
+        "label": "בניין C16 דירה 4 טיפוס C23/1 דירה 3 חדרים, 2 מרפסות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_681785001b0c475a9a03e8efd3cc52ce.pdf"
+      },
+      {
+        "label": "בניין C16 דירה 5 טיפוס C23/2 דירה 3 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_f40e465bf7cc4c4f923c2f2cd3d5adce.pdf"
+      },
+      {
+        "label": "בניין C16 דירה 6 טיפוס C23/2 דירה 3 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_99960c66ef2c490c85219f32a676014c.pdf"
+      },
+      {
+        "label": "בניין C20 דירה 4 טיפוס C28/2 דירה 4 חדרים, 2 מרפסות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b4db11b67212440bb2af89b6faabd473.pdf"
+      },
+      {
+        "label": "בניין C20 דירה 5 טיפוס C29/1 דירה 5 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7d20888b4e6949a692cb71024a1e2bab.pdf"
+      },
+      {
+        "label": "בניין C20 דירה 6 טיפוס C30/1 דירה 5 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_964297cb9a4d47d7b7b0e95bda8a6d10.pdf"
+      },
+      {
+        "label": "בניין C20 דירה 7 טיפוס C31/1 דירה 3 חדרים, 2 מרפסות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_32dff45b489f4b439eaeac358963e2ac.pdf"
+      },
+      {
+        "label": "בניין C20 דירה 8 טיפוס C32/1 דירה 4 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_3b4c7f4575484d82ba7f8a0d7ed2fc6b.pdf"
+      }
+    ],
+    "apartmentSourceUrl": "https://www.yigal-group.com/%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1973",
+    "floorPlanSourceUrl": "https://www.yigal-group.com/%D7%98%D7%99%D7%A4%D7%95%D7%A1%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1973"
+  },
+  {
+    "id": "1972",
+    "complexId": "61558",
+    "sourceUrl": "https://www.yigal-group.com/copy-of-%D7%94%D7%92%D7%A8%D7%9C%D7%94-%D7%9E%D7%A1-1974-1",
+    "description": "בפאתי העיר בית שאן שבצפון הארץ , מוקמת שכונת בוטיק הכוללת 38 בניינים בין 4-10 קומות . הפרויקט עתיד לכלול 528 יחידות דיור מפנקות הבנויות ברמה הגבוהה ביותר, עם סטנדרטים גבוהים.",
+    "documents": [
+      {
+        "label": "ג' 4",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c7dc973952ab4260aa8ade0eb03a701e.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מפרט מכר",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c1d0f5c08e634b92b4948cfb2c729213.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מבט על פרויקט מול ירדן הגרלה 1972",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_67bbcf1d8ca64a518674dca1cffb75a9.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מצגת כנס זוכים הגרלות 1972 ו 1974 מול ירדן בית שאן",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_93ac7f2ee0ac4723b5e70db06ff10c1d.pdf",
+        "category": "כנס זוכים"
+      },
+      {
+        "label": "היתר בנייה -הגרלה 1972 מגרש 314",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d7f21f12733443af9d3dec61fe77abfd.pdf",
+        "category": "היתרים"
+      },
+      {
+        "label": "היתר בנייה -הגרלה 1972 מגרש 315",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0d6ac5e7619743be8b7048a2e3bcf199.pdf",
+        "category": "היתרים"
+      },
+      {
+        "label": "דירות A",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a57d4279e86b4dad8c09d3ca489a5272.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "דירות BC25",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8d03156b1ec54837b18b590447db7e4c.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "חוזה מכר חתום ע\"י חברת הבקרה-מתחם 61558",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0939fa338e9446b49c5a67e9072635d5.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "ייפוי כח לבן/ בת הזוג",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ba8cd218169f4d2e944e32e4d0d69218.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "ייפוי כח נוטריוני לצד ג'",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_82e71bf415764233a2998ad75cc6e1ec.pdf",
+        "category": "מסמכים משפטיים"
+      }
+    ],
+    "buildings": [
+      {
+        "id": "B7",
+        "apartments": [
+          {
+            "number": "4",
+            "label": "בניין B7 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_71140875bf8c4d0abc3e6ecbb4685cf4.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין B7 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d71d2a5fadcc4e71994518bcd7d006b6.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין B7 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_3b3418646ebe4bd6864b3ff8b405b2fe.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין B7 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_530fc25c10f343ada319bcefb2088c5f.pdf"
+          },
+          {
+            "number": "10",
+            "label": "בניין B7 · דירה 10",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_04e4838b36e846aeb70b0b1ac7377a9d.pdf"
+          },
+          {
+            "number": "12",
+            "label": "בניין B7 · דירה 12",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_1d9e75072cbd48a496b3104adfd104a7.pdf"
+          },
+          {
+            "number": "13",
+            "label": "בניין B7 · דירה 13",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_29503448baab4dbebe1a29da2468f963.pdf"
+          },
+          {
+            "number": "14",
+            "label": "בניין B7 · דירה 14",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4c428ffa56234cfcb295bc132f03129f.pdf"
+          },
+          {
+            "number": "15",
+            "label": "בניין B7 · דירה 15",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_3ebe87da5faa40c3b2640cbd5beb464d.pdf"
+          }
+        ]
+      },
+      {
+        "id": "B9",
+        "apartments": [
+          {
+            "number": "4",
+            "label": "בניין B9 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7b7958674ffe49f7ae0aa6302bf4315e.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין B9 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_21d9f0e5f1024e7fb8ec31946260a582.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין B9 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_3873fa8e44ed43d7afc188a1c5068b92.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין B9 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4f899061ab374ffbb407dc0172c0439a.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין B9 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_af942ed09f324896bb0d786f1cbcdc63.pdf"
+          }
+        ]
+      },
+      {
+        "id": "B11",
+        "apartments": [
+          {
+            "number": "5",
+            "label": "בניין B11 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0741a631d5ba4e28a34006e3d6ab89ec.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין B11 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4aea50fd121546389415efb32d554eb6.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין B11 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_1c0bb9fc4e524452a684e2ea2c2d66e4.pdf"
+          },
+          {
+            "number": "10",
+            "label": "בניין B11 · דירה 10",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_6bbde1ef70c54ff6ab9ead2c57256146.pdf"
+          },
+          {
+            "number": "11",
+            "label": "בניין B11 · דירה 11",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_aa92e03681bd4d0fa2b37b8ee4eda760.pdf"
+          },
+          {
+            "number": "12",
+            "label": "בניין B11 · דירה 12",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0e4bb75f51b7489e9a62c26b72a4f01e.pdf"
+          },
+          {
+            "number": "13",
+            "label": "בניין B11 · דירה 13",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_f068a24110f64d2caa3cf1e6d348f077.pdf"
+          },
+          {
+            "number": "14",
+            "label": "בניין B11 · דירה 14",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_e6962eb378ae48e993d920ffc598b22b.pdf"
+          },
+          {
+            "number": "15",
+            "label": "בניין B11 · דירה 15",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_20794475a77e431ba15a98068699c2e9.pdf"
+          },
+          {
+            "number": "16",
+            "label": "בניין B11 · דירה 16",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0abb5d835bc34ad587b7ca5e5b4bfd16.pdf"
+          },
+          {
+            "number": "17",
+            "label": "בניין B11 · דירה 17",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d19575474f6e443fb420c07dbb4d0bc7.pdf"
+          },
+          {
+            "number": "19",
+            "label": "בניין B11 · דירה 19",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_378297b427ef4a74950f32550e8169aa.pdf"
+          },
+          {
+            "number": "20",
+            "label": "בניין B11 · דירה 20",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_3ca68826e8474a30ad238c7dad782a82.pdf"
+          },
+          {
+            "number": "21",
+            "label": "בניין B11 · דירה 21",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_81bd0b416be941c890b20186a8b9ed95.pdf"
+          },
+          {
+            "number": "22",
+            "label": "בניין B11 · דירה 22",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ed677942d5844ae8abf7799cf7143e28.pdf"
+          },
+          {
+            "number": "23",
+            "label": "בניין B11 · דירה 23",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_743f2966addf4f6a898a70c360d91b7d.pdf"
+          },
+          {
+            "number": "26",
+            "label": "בניין B11 · דירה 26",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5d462d1ee7bd4500a036294d0b5db053.pdf"
+          },
+          {
+            "number": "27",
+            "label": "בניין B11 · דירה 27",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b51b7471b16141c2b2fbfe2c301e22a1.pdf"
+          },
+          {
+            "number": "28",
+            "label": "בניין B11 · דירה 28",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_75e7fafa262e4d178ee0932c5da89c33.pdf"
+          },
+          {
+            "number": "29",
+            "label": "בניין B11 · דירה 29",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_00b67679942c4174a67b3ffa277ac1fd.pdf"
+          },
+          {
+            "number": "30",
+            "label": "בניין B11 · דירה 30",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_3a109129629d46bb8637aa3d9c6d5e08.pdf"
+          },
+          {
+            "number": "31",
+            "label": "בניין B11 · דירה 31",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_9c2de9ea802b40ed9cb557d0904bf85b.pdf"
+          }
+        ]
+      }
+    ],
+    "floorPlans": [],
+    "apartmentSourceUrl": "https://www.yigal-group.com/%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1972"
+  },
+  {
+    "id": "1971",
+    "complexId": "61561",
+    "sourceUrl": "https://www.yigal-group.com/%D7%94%D7%92%D7%A8%D7%9C%D7%94-%D7%9E%D7%A1-1971",
+    "description": "בפאתי העיר בית שאן שבצפון הארץ , מוקמת שכונת בוטיק הכוללת 38 בניינים בין 4-10 קומות . הפרויקט עתיד לכלול 528 יחידות דיור מפנקות הבנויות ברמה הגבוהה ביותר, עם סטנדרטים גבוהים.",
+    "documents": [
+      {
+        "label": "ג' 4",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_920c6b2c5fda4e4da133edfa0e3edbce.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מפרט מכר",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c3c57906f4be410aa3ec18c09e580021.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מבט על פרויקט מול ירדן הגרלה 1971",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b668290dd3764b0b92f1d83846249161.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מצגת כנס זוכים הגרלות 1971 ו 1973 מול ירדן בית שאן",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_6b748693fa2e4d4f8b92c91130489564.pdf",
+        "category": "כנס זוכים"
+      },
+      {
+        "label": "היתר בנייה",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_56a518f7d6c040b093ba72724f2d2079.pdf",
+        "category": "היתרים"
+      },
+      {
+        "label": "חוזה מכר חתום ע\"י חברת הבקרה-מתחם 61561",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_f4416102cf9142b7ab4aacc441ac1f40.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "מסמך ליווי בנקאי",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ed2e58ea98d74468bf9df5c5af064539.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "כתב התחייבות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7ecf1946cf56402a891e883f000be4f5.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "תצהיר חסר קרקע",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a696d18e68794364a1221ad2a5649f55.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "ייפוי כח לבן/ בת הזוג",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ba8cd218169f4d2e944e32e4d0d69218.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "ייפוי כח נוטריוני לצד ג'",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_82e71bf415764233a2998ad75cc6e1ec.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "נספח תמורה",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d4ceb89cc25d49508dc8a741c89a1d98.pdf",
+        "category": "מסמכים משפטיים"
+      }
+    ],
+    "buildings": [
+      {
+        "id": "C17",
+        "apartments": [
+          {
+            "number": "4",
+            "label": "בניין C17 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_1de659f5ee0c420c827be2720d421bf7.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין C17 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a6232d6619e840fd8611791cbd7ddfbf.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין C17 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a9362ddf09e24101a710dbcb170339fe.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין C17 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7dbe513834ef4f04b5de59a1d1d7cc2c.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין C17 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_52441cc261334f7eb53b6e33ad3f3634.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין C17 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4fe64549f6564ace9f2836f70070777b.pdf"
+          }
+        ]
+      },
+      {
+        "id": "C19",
+        "apartments": [
+          {
+            "number": "4",
+            "label": "בניין C19 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_fdb0e4b34ec9482bbc8d2eda6e581fc3.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין C19 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b56f29fdaf5045f59902db87185e7206.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין C19 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_011697f24fcb4484888186b506c1d327.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין C19 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ad5eb286323d41f18fd8b2c3cbeaf9c9.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין C19 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_9142c7d45b774846bec623e3757704ed.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין C19 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_853cd37b76234126b3e673819da76661.pdf"
+          },
+          {
+            "number": "10",
+            "label": "בניין C19 · דירה 10",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7f590a35d0814a7aaea8ab8689278c7a.pdf"
+          }
+        ]
+      },
+      {
+        "id": "C21",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין C21 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d99482375818420d9d3bcef1ee03944e.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין C21 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_521551d776d649198322e8ebffc5d2bf.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין C21 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7354d699c8ee4b22ab834dfd46bb222d.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין C21 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a7e6facfd3ad4d70a44f9798ce66f5fb.pdf"
+          }
+        ]
+      },
+      {
+        "id": "C22",
+        "apartments": [
+          {
+            "number": "4",
+            "label": "בניין C22 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_467ef8b88d1f4e10802fd2200587fee7.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין C22 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4991823ee28a40cfa720ed32d6dbffb6.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין C22 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a3285a7bcef145a891d89f364304e726.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין C22 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_bb577321c1f04ce1a659e3aaa2a0117f.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין C22 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d2e1bd9d7d2b49a99af2841564cccfe4.pdf"
+          }
+        ]
+      },
+      {
+        "id": "C23",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין C23 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8d710ba3b5ec48b3bf39a95b75ecd311.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין C23 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_86bdd8a473774bbdb329c90e4ec0b9e9.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין C23 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_2ea181b8852e45c68b3578a6afe153ff.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין C23 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_db10ddcc799b49f18638fd96010ca67a.pdf"
+          }
+        ]
+      },
+      {
+        "id": "C24",
+        "apartments": [
+          {
+            "number": "4",
+            "label": "בניין C24 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0805ec22994e4691b17671382a77f959.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין C24 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_2fb9cf4c75644506a630be84be347fe8.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין C24 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_86bd77a9295b47158c8250e8db0c2882.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין C24 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_71b679a574f34482b53d65589c763200.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין C24 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_efc1a2fcfd3948479fec92dc44c86fd7.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין C24 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7af4c5a4c6b8437084cc2d503bbfe788.pdf"
+          }
+        ]
+      },
+      {
+        "id": "C25",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין C25 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_f485beaa946343c99cd93be77df03020.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין C25 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_6d9a9269bce442a4a0bf18d3f340cfc5.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין C25 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_9615a78c45374a8181b4344d0b18bcdc.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין C25 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_da815702f8c54a6d94767d43ed2100df.pdf"
+          }
+        ]
+      },
+      {
+        "id": "C26",
+        "apartments": [
+          {
+            "number": "4",
+            "label": "בניין C26 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d6acff51e14f40b9b0b008708338ac5c.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין C26 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_f58e93e7bc2c4645929c2183e7927c2e.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין C26 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_cdee51c8045042f380d1d8d2bbc15a2c.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין C26 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8d5ff93bc2e14053bad4a88373671196.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין C26 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7ab609416a764ab0a6e9071f10bf37b6.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין C26 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_89a1f4a5be64477e872ef10dea058d23.pdf"
+          }
+        ]
+      }
+    ],
+    "floorPlans": [
+      {
+        "label": "בניין C17 דירה 4 טיפוס C22/1 דירה 3 חדרים, 2 מרפסות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d9d4a478675649288ff6948dd60da4e5.pdf"
+      },
+      {
+        "label": "בניין C17 דירה 5 טיפוס C23/1 דירה 4 חדרים, 2 מרפסות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5c8e348893e84950ac0fa1b76a31810d.pdf"
+      },
+      {
+        "label": "בניין C17 דירה 6 טיפוס C23/1 דירה 4 חדרים, 2 מרפסות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c646c05de5724b7588477b07b255a787.pdf"
+      },
+      {
+        "label": "בניין C17 דירה 7 טיפוס C22/2 דירה 3 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c04078740a7746f08b6b5f271d5650e1.pdf"
+      },
+      {
+        "label": "בניין C17 דירה 8 טיפוס C23/2 דירה 4 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_6e23263608bd4d6e825913b9d93d3fd6.pdf"
+      },
+      {
+        "label": "בניין C17 דירה 9 טיפוס C23/2 דירה 4 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b0c90a6876444556b4cc152f10c9bad2.pdf"
+      },
+      {
+        "label": "בניין C19 דירה 4 טיפוס C25/1 דירה 5 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8cd1c1e81f27445a87317f5d6ad39e14.pdf"
+      },
+      {
+        "label": "בניין C19 דירה 9 טיפוס C27/1 דירה 5 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_2b5c1dc0e7314ce8b9872675884eb0bf.pdf"
+      },
+      {
+        "label": "בניין C19 דירה 8 טיפוס C27/1 דירה 5 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_065f4d9044b34ce7bc565c4ee80bc803.pdf"
+      },
+      {
+        "label": "בניין C19 דירה 7 טיפוס C28/1 דירה 4 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4e7ad1f93dda42019fea893a98f23608.pdf"
+      },
+      {
+        "label": "בניין C19 דירה 6 טיפוס C27/1 דירה 5 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_33b960337bf34077910e7ae331d471cb.pdf"
+      },
+      {
+        "label": "בניין C19 דירה 5 טיפוס C26/1 דירה 5 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_bb3fd9119ad24de1a6152d7f04c7a6f5.pdf"
+      },
+      {
+        "label": "בניין C22 דירה 4 טיפוס C28/2 דירה 3 חדרים, 2 מרפסות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_96f9f88e332645f3bdd363ad08a5f78a.pdf"
+      },
+      {
+        "label": "בניין C22 דירה 5 טיפוס C29/1 דירה 5 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_599b857c2ffd4a609cb50626e382475f.pdf"
+      },
+      {
+        "label": "בניין C22 דירה 6 טיפוס C30/1 דירה 4 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_00f73f76472b46c5bd34dfdbb746bf1e.pdf"
+      },
+      {
+        "label": "בניין C23 דירה 3 טיפוס B23/1 דירה 3 חדרים, 2 מרפסות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5d45003990564193ab63fff01a668f50.pdf"
+      },
+      {
+        "label": "בניין C23 דירה 4 טיפוס B23/1 דירה 3 חדרים, 2 מרפסות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a77bc5751d114d3ea5b059768aed3196.pdf"
+      },
+      {
+        "label": "בניין C23 דירה 5 טיפוס B23/2 דירה 3 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0c817b680b2a44c78c596986d3cba4b5.pdf"
+      },
+      {
+        "label": "בניין C23 דירה 6 טיפוס B23/3 דירה 3 חדרים, 2 מרפסות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ef3a669926fc4faa8dd75fcad460c963.pdf"
+      },
+      {
+        "label": "בניין C24 דירה 4 טיפוס C28/2 דירה 3 חדרים, 2 מרפסות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a180edf3858f479fad16cf15956c349a.pdf"
+      },
+      {
+        "label": "בניין C24 דירה 5 טיפוס C29/1 דירה 5 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_f8ca600e17b543439cb4ae2d58678e7b.pdf"
+      },
+      {
+        "label": "בניין C24 דירה 6 טיפוס C30/1 דירה 4 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5ba6a51c26474ee7a59667906a179fa0.pdf"
+      },
+      {
+        "label": "בניין C24 דירה 7 טיפוס C31/1 דירה 3 חדרים, 2 מרפסות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_753d4cc46e5940bb93cb165f2b4388d5.pdf"
+      },
+      {
+        "label": "בניין C24 דירה 8 טיפוס C32/1 דירה 4 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_312ce1007aac43878371502ba0bc4db6.pdf"
+      },
+      {
+        "label": "בניין C24 דירה 9 טיפוס C33/1 דירה 5 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b0d47455e40541f5be7639fb4a0f2bbc.pdf"
+      },
+      {
+        "label": "בניין C25 דירה 3 טיפוס B27/1 דירה 4 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_97f2c04d17e042cc97ead1eba2a7d5fc.pdf"
+      },
+      {
+        "label": "בניין C25 דירה 4 טיפוס B27/1 דירה 4 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_018091f5858e4fc4808228ff1b985122.pdf"
+      },
+      {
+        "label": "בניין C25 דירה 5 טיפוס B27/2 דירה 4 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_e4f5008e7cb545aaacc79735e3d1d965.pdf"
+      },
+      {
+        "label": "בניין C25 דירה 6 טיפוס B28/1 דירה 3 חדרים, 2 מרפסות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4a0fdf8cdf4240b5969652d05a3d8d2e.pdf"
+      },
+      {
+        "label": "בניין C26 דירה 4 טיפוס C25/1 דירה 5 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_27d5ef94fb6f469e9a1076953b755857.pdf"
+      },
+      {
+        "label": "בניין C26 דירה 5 טיפוס C26/1 דירה 5 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_f2208962631840c29317f7d47f644687.pdf"
+      },
+      {
+        "label": "בניין C26 דירה 8 טיפוס C27/1 דירה 5 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_90d1defcfbf94c209d8f9c66c632bd5e.pdf"
+      },
+      {
+        "label": "בניין C26 דירה 7 טיפוס C28/1 דירה 4 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_daa2eb36af3e4f5691112b18750ac688.pdf"
+      },
+      {
+        "label": "בניין C26 דירה 6 טיפוס C27/1 דירה 5 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a86fc12c819844d4b2bca1f90d9fb94d.pdf"
+      },
+      {
+        "label": "בניין C26 דירה 9 טיפוס C27/1 דירה 5 חדרים, מרפסת",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a5fd279ea2fd4dc09b823b8d34e07481.pdf"
+      }
+    ],
+    "apartmentSourceUrl": "https://www.yigal-group.com/%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1971",
+    "floorPlanSourceUrl": "https://www.yigal-group.com/copy-of-%D7%98%D7%99%D7%A4%D7%95%D7%A1%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1973"
+  },
+  {
+    "id": "1970",
+    "complexId": "61559",
+    "sourceUrl": "https://www.yigal-group.com/copy-of-%D7%94%D7%92%D7%A8%D7%9C%D7%94-%D7%9E%D7%A1%D7%A4%D7%A8-1968-1",
+    "description": "בפאתי העיר בית שאן שבצפון הארץ , מוקמת שכונת בוטיק הכוללת 38 בניינים בין 4-10 קומות . הפרויקט עתיד לכלול 528 יחידות דיור מפנקות הבנויות ברמה הגבוהה ביותר, עם סטנדרטים גבוהים.",
+    "documents": [
+      {
+        "label": "ג' 4",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_3a2a400d932844eba90a0574b4b836ad.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מפרט מכר",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4c299f68c6d649238ed51d9b6eafb7ae.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מבט על פרויקט מול ירדן הגרלה 1970",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_638339c66a4d4fb18b17232dd1070a5c.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מצגת כנס זוכים הגרלות 1968 ו 1970 מול ירדן בית שאן",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0da9604c75f846339d911514902c1db9.pdf",
+        "category": "כנס זוכים"
+      },
+      {
+        "label": "היתר בנייה הגרלה 1970, מגרש 252",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7c01ce17d81b42c6b32013218be0c7df.pdf",
+        "category": "היתרים"
+      },
+      {
+        "label": "ייפוי כח נוטריוני לצד ג'",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4fd4805d9e9545a6b4e89ab4544f1b09.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "ייפוי כח לבן/ בת הזוג",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_129cf65fd6bb4be78dd992a5b6e3fe10.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "חוזה מכר חתום ע\"י חברת הבקרה-מתחם 61559",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_08c8f7a4409049958de666d6f61028ed.pdf",
+        "category": "מסמכים משפטיים"
+      }
+    ],
+    "buildings": [
+      {
+        "id": "D35",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין D35 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_e9d10001bbb44e2fba58fa5ebe75520f.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין D35 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_3e61381d23ac4939ad0cecb956529e33.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין D35 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_e98bc08c3b4b43cd893f9458b1014bde.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין D35 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_1f1f058ca71d4d28a2fec785473939e0.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין D35 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0e4a712041e447319028ba3bd6336c1f.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין D35 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_10b32de1c7044336834974dee7bccb95.pdf"
+          }
+        ]
+      },
+      {
+        "id": "D36",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין D36 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a08a86414b8a4158b1650e3b6ee4fc60.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין D36 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_50af16f8ea4a4a7aad65788b86cbb851.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין D36 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_004c241ba865480784d004d72aae110f.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין D36 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_21f8d6c6dcd74d2b97abe5914da9f0f2.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין D36 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_21f8d6c6dcd74d2b97abe5914da9f0f2.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין D36 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7894d3a829b044f58bda8731693ac77d.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין D36 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_6517b4aca090409ebe7be7a5f8051c06.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין D36 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_61d6b7bbf46a4d88a2e9eb0e4255542f.pdf"
+          },
+          {
+            "number": "10",
+            "label": "בניין D36 · דירה 10",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5a3cd0ac53f3434a947081802a1c4b38.pdf"
+          },
+          {
+            "number": "13",
+            "label": "בניין D36 · דירה 13",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_cd1de62b3fa0455881178bb4af086c6c.pdf"
+          }
+        ]
+      },
+      {
+        "id": "D37",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין D37 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b7386316b03d4aca85295560137c69dc.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין D37 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_64e185582f0f4d51aa73b890fbf493a9.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין D37 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5efb984cb770436b9b0a243ff6c0fcf3.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין D37 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ec015bd5f11a4ac7a97c908597bb482f.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין D37 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0edad024c4654117a79fa5abc0ff4777.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין D37 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_993187cbf4a541bbaaa8a3181185f1a9.pdf"
+          }
+        ]
+      },
+      {
+        "id": "D38",
+        "apartments": [
+          {
+            "number": "5",
+            "label": "בניין D38 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_921f5370c3cf4331965c3df2451250df.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין D38 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4cb133c445ab4576b504139f5ada6c37.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין D38 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_dc92e95421ab43c8af88e798048bf73c.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין D38 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_e1a962bcef82469dbf268961a2581f7b.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין D38 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d8633e1ea3764303987565d22f3637bf.pdf"
+          },
+          {
+            "number": "10",
+            "label": "בניין D38 · דירה 10",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_582a262f5a2a402c8b933fb483a16569.pdf"
+          },
+          {
+            "number": "11",
+            "label": "בניין D38 · דירה 11",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_87cb712e724040f19fd60738f0f10ed4.pdf"
+          },
+          {
+            "number": "12",
+            "label": "בניין D38 · דירה 12",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_868eae10fc7d455eb0d47bd33a38d484.pdf"
+          },
+          {
+            "number": "13",
+            "label": "בניין D38 · דירה 13",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_3cdde2227cf24dafac62d66cd5b979f7.pdf"
+          },
+          {
+            "number": "14",
+            "label": "בניין D38 · דירה 14",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_f4645cd00c9043bcb8ca70cd5d475369.pdf"
+          },
+          {
+            "number": "15",
+            "label": "בניין D38 · דירה 15",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_05baa7d1bc614270b6fad1e5bbbf919c.pdf"
+          },
+          {
+            "number": "16",
+            "label": "בניין D38 · דירה 16",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4db6bf94cd9a4b80b5394a046e4df3cc.pdf"
+          },
+          {
+            "number": "17",
+            "label": "בניין D38 · דירה 17",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_2dff66bbd12a41bb8089b9c9abe6fbb1.pdf"
+          },
+          {
+            "number": "19",
+            "label": "בניין D38 · דירה 19",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d0ba91570fcb4c2f90cb8dec46ecf030.pdf"
+          },
+          {
+            "number": "20",
+            "label": "בניין D38 · דירה 20",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0dacecc8021841e49bea4ad0a6fdb634.pdf"
+          },
+          {
+            "number": "21",
+            "label": "בניין D38 · דירה 21",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_be9ac24ce7b1469cbdad8172f86a7d18.pdf"
+          },
+          {
+            "number": "23",
+            "label": "בניין D38 · דירה 23",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_f0214524596f4ba6960883014586df44.pdf"
+          },
+          {
+            "number": "25",
+            "label": "בניין D38 · דירה 25",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4206ae19c760471d81b4b57ae4604760.pdf"
+          },
+          {
+            "number": "26",
+            "label": "בניין D38 · דירה 26",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b631993413974c549c30fed88314e518.pdf"
+          },
+          {
+            "number": "27",
+            "label": "בניין D38 · דירה 27",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_81185b90e75a490da5b27a9b8186f2b4.pdf"
+          },
+          {
+            "number": "29",
+            "label": "בניין D38 · דירה 29",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_e4056e9db30d4ea0b4438e1cecabd0a9.pdf"
+          },
+          {
+            "number": "30",
+            "label": "בניין D38 · דירה 30",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8f5036c586d4480daef5a0181a396c86.pdf"
+          }
+        ]
+      }
+    ],
+    "floorPlans": [],
+    "apartmentSourceUrl": "https://www.yigal-group.com/copy-of-%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1971-1"
+  },
+  {
+    "id": "1969",
+    "complexId": "50684",
+    "sourceUrl": "https://www.yigal-group.com/copy-of-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1975-1",
+    "description": "בפאתי העיר בית שאן שבצפון הארץ , מוקמת שכונת בוטיק הכוללת 38 בניינים בין 4-10 קומות . הפרויקט עתיד לכלול 528 יחידות דיור מפנקות הבנויות ברמה הגבוהה ביותר, עם סטנדרטים גבוהים.",
+    "documents": [
+      {
+        "label": "ג' 4",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d61141d08f834e68aa08ce8f635c6281.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מפרט מכר",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_638a7c1576f94058b564b12dc6b95045.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מבט על פרויקט מול ירדן הגרלה 1969",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_baa624e3d9184fc3b1c8106b50e5394a.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "חוזה מכר חתום ע\"י חברת הבקרה-מתחם 50684",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_241ad6392e3343f9a469783358e54246.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "ייפוי כח לבן/ בת הזוג",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_37fd900400304afc833348fb95aa05db.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "ייפוי כח נוטריוני לצד ג'",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_08ca7f9714194fe7928104a838f196ea.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "מצגת כנס זוכים הגרלות",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_9e583b682ec348b8bd029d0f172a82de.pdf",
+        "category": "כנס זוכים"
+      },
+      {
+        "label": "היתר בנייה מגרש 300",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_72d323e758fe4718aafa3daf22c78803.pdf",
+        "category": "היתרים"
+      },
+      {
+        "label": "הקלטה למפגש MEET כנס זוכים",
+        "url": "https://drive.google.com/file/d/1M7ZO7KoaIvXNG99v3UbEpiG6USlc6x_V/view?usp=sharing",
+        "category": "כנס זוכים"
+      },
+      {
+        "label": "היתר בנייה מגרש 301",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b523df4685594395b6d900cd80b4edbe.pdf",
+        "category": "היתרים"
+      },
+      {
+        "label": "היתר בנייה מגרש 302",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_73cf368167b54e5f87c3aeedaee597bf.pdf",
+        "category": "היתרים"
+      }
+    ],
+    "buildings": [
+      {
+        "id": "A2",
+        "apartments": [
+          {
+            "number": "7",
+            "label": "בניין A2 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_2be590293ed24fc18be5580c7091d930.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין A2 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_380173ad2c2c461db107365a2b12cfba.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין A2 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_6f510666239c48e08b9e975bf3e377f1.pdf"
+          },
+          {
+            "number": "10",
+            "label": "בניין A2 · דירה 10",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_84b3ec974ef347dca57bbdd91cb50d85.pdf"
+          },
+          {
+            "number": "11",
+            "label": "בניין A2 · דירה 11",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d88171a642a342b7a404323f30bece79.pdf"
+          },
+          {
+            "number": "12",
+            "label": "בניין A2 · דירה 12",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a6a5354c3f204571a8c58ad4184339f2.pdf"
+          },
+          {
+            "number": "17",
+            "label": "בניין A2 · דירה 17",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4f5ec2459d8d446ab51b9f0ec5657bbb.pdf"
+          },
+          {
+            "number": "18",
+            "label": "בניין A2 · דירה 18",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_1a61618de1004631aa80ab739981d657.pdf"
+          },
+          {
+            "number": "19",
+            "label": "בניין A2 · דירה 19",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a0a8f65c62f54e73a70353bfbc2e194e.pdf"
+          },
+          {
+            "number": "20",
+            "label": "בניין A2 · דירה 20",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_9c8057c7204540bdb2a9d122b54ad5c2.pdf"
+          },
+          {
+            "number": "21",
+            "label": "בניין A2 · דירה 21",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_1fae4d93a65f420ea43cafef874de5e8.pdf"
+          },
+          {
+            "number": "22",
+            "label": "בניין A2 · דירה 22",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_2543c38daf0e4f5883948f11d52bc28f.pdf"
+          },
+          {
+            "number": "23",
+            "label": "בניין A2 · דירה 23",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c3df8847066d46caa1b0c73144932a15.pdf"
+          },
+          {
+            "number": "24",
+            "label": "בניין A2 · דירה 24",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_9ac5e9e8a676406cb8c97e29ee4532f6.pdf"
+          },
+          {
+            "number": "25",
+            "label": "בניין A2 · דירה 25",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8cb03bcc0c1048d196f3863ec2c9daf2.pdf"
+          },
+          {
+            "number": "26",
+            "label": "בניין A2 · דירה 26",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7f2558dd42e54f76b6ab6028d584ecd5.pdf"
+          },
+          {
+            "number": "27",
+            "label": "בניין A2 · דירה 27",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d267d1b2dbe141758cabba422cefec2d.pdf"
+          },
+          {
+            "number": "28",
+            "label": "בניין A2 · דירה 28",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_1638b70c098d464aa973d88be034c692.pdf"
+          },
+          {
+            "number": "29",
+            "label": "בניין A2 · דירה 29",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7bb22eaf070040ee82cb19f3d59fe7a1.pdf"
+          },
+          {
+            "number": "30",
+            "label": "בניין A2 · דירה 30",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_22377c62314f41aa96668fd0a9c6d2b4.pdf"
+          },
+          {
+            "number": "31",
+            "label": "בניין A2 · דירה 31",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c7a1b3e03e7b4b399baf2de6b8756316.pdf"
+          },
+          {
+            "number": "32",
+            "label": "בניין A2 · דירה 32",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_68762a4c083a415e8d29cb869de785de.pdf"
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "apartments": [
+          {
+            "number": "7",
+            "label": "בניין A3 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7be06864625d4818865dcc70a034c1d0.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין A3 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4ac9bcaa237e4e57a5b21a546915f732.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין A3 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a7f6a0dc52734b299bed0f9fc90b8b30.pdf"
+          },
+          {
+            "number": "10",
+            "label": "בניין A3 · דירה 10",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b85841a86b34414c83e894c7310882e4.pdf"
+          },
+          {
+            "number": "11",
+            "label": "בניין A3 · דירה 11",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5f776865744a4f98bc22e9c2cd8d3cde.pdf"
+          },
+          {
+            "number": "12",
+            "label": "בניין A3 · דירה 12",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_6219118b82be446aa880e40dd0f69392.pdf"
+          },
+          {
+            "number": "13",
+            "label": "בניין A3 · דירה 13",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c0a2067752184a6bad29c59d09fc57c9.pdf"
+          },
+          {
+            "number": "14",
+            "label": "בניין A3 · דירה 14",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_fdbe0c82ce7743bc9259e1d508fba006.pdf"
+          },
+          {
+            "number": "15",
+            "label": "בניין A3 · דירה 15",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_dbca068bbda14773bf0e5319e0e44512.pdf"
+          },
+          {
+            "number": "16",
+            "label": "בניין A3 · דירה 16",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_148ce5e81ce843d6b73ebe9bed28c511.pdf"
+          },
+          {
+            "number": "17",
+            "label": "בניין A3 · דירה 17",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_38521efb769a47d097d09a7fd853ce7d.pdf"
+          },
+          {
+            "number": "19",
+            "label": "בניין A3 · דירה 19",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5e081d54607e4f4e8c02a00e0e64d2f4.pdf"
+          },
+          {
+            "number": "20",
+            "label": "בניין A3 · דירה 20",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_332465ab608c4600a53b487f1028da6d.pdf"
+          },
+          {
+            "number": "21",
+            "label": "בניין A3 · דירה 21",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_20f18c8140524b1fa8158be460117421.pdf"
+          },
+          {
+            "number": "22",
+            "label": "בניין A3 · דירה 22",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_67b158d9ca664b67871243d9230fcf57.pdf"
+          },
+          {
+            "number": "26",
+            "label": "בניין A3 · דירה 26",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_210ab648da4e4f91b778d8eb4c224b9c.pdf"
+          },
+          {
+            "number": "27",
+            "label": "בניין A3 · דירה 27",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_2722ac6988ad453189b8697230b345b9.pdf"
+          },
+          {
+            "number": "28",
+            "label": "בניין A3 · דירה 28",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_700e808d470d40a788fe858dd9f84af2.pdf"
+          },
+          {
+            "number": "29",
+            "label": "בניין A3 · דירה 29",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ffa62f8ddb7b4b94b0c75d49bb549506.pdf"
+          },
+          {
+            "number": "30",
+            "label": "בניין A3 · דירה 30",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_2f491c9b01834bfb9d69277a3b9abf6a.pdf"
+          },
+          {
+            "number": "31",
+            "label": "בניין A3 · דירה 31",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b12722d5a33c4387bd9b37c02e927f85.pdf"
+          },
+          {
+            "number": "32",
+            "label": "בניין A3 · דירה 32",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d84358282d4e48f29515e9a77348ffbb.pdf"
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "apartments": [
+          {
+            "number": "4",
+            "label": "בניין A4 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_da82897c392d420cb13142bda56012b1.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין A4 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_95db7dec72e748b98fde43905ef2805f.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין A4 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_314c5f96c10e4dfd903e0cf73a496961.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין A4 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4cd2f80bce574cc895d01a52cb493643.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין A4 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_85952928f62143f39cc13543ea62870a.pdf"
+          }
+        ]
+      },
+      {
+        "id": "A5",
+        "apartments": [
+          {
+            "number": "4",
+            "label": "בניין A5 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_930efbf2592d4882bf351897befa3490.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין A5 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_08c9020f23334fc7b8ff3b072336a545.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין A5 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_3b9fa98bfa5f4f81acf3568ba62e64bd.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין A5 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_673a80b9150241fa91dca062f50fa634.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין A5 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_e39c7da6f1724f1091fcdbf0a970e779.pdf"
+          },
+          {
+            "number": "10",
+            "label": "בניין A5 · דירה 10",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_bdff6e959e33455598358d25d8fa4a6f.pdf"
+          },
+          {
+            "number": "11",
+            "label": "בניין A5 · דירה 11",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_65f6fb80886b40da947e66a7437dcfbb.pdf"
+          },
+          {
+            "number": "12",
+            "label": "בניין A5 · דירה 12",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_aad4d10cd8aa45b8b26710b6395c7b63.pdf"
+          },
+          {
+            "number": "14",
+            "label": "בניין A5 · דירה 14",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_aa016653034345b2bb515f4f31febed1.pdf"
+          },
+          {
+            "number": "15",
+            "label": "בניין A5 · דירה 15",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a9af623b78634f85854e53e5e0c6227c.pdf"
+          }
+        ]
+      }
+    ],
+    "floorPlans": [],
+    "apartmentSourceUrl": "https://www.yigal-group.com/%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1975"
+  },
+  {
+    "id": "1968",
+    "complexId": "50683",
+    "sourceUrl": "https://www.yigal-group.com/copy-of-%D7%94%D7%92%D7%A8%D7%9C%D7%94-%D7%9E%D7%A1-1971-2",
+    "description": "בפאתי העיר בית שאן שבצפון הארץ , מוקמת שכונת בוטיק הכוללת 38 בניינים בין 4-10 קומות . הפרויקט עתיד לכלול 528 יחידות דיור מפנקות הבנויות ברמה הגבוהה ביותר, עם סטנדרטים גבוהים.",
+    "documents": [
+      {
+        "label": "ג' 4",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_00aec32cc95e462ebe7c08a4a2139436.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מפרט מכר",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_f7db442cde264964ad4786fa8a9f35c6.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "מבט על פרויקט מול ירדן הגרלה 1968",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_094731c75f46447984163046469b594a.pdf",
+        "category": "תכנון ומפרט"
+      },
+      {
+        "label": "חוזה מכר חתום ע\"י חברת הבקרה-מתחם 50683",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_fba764bfe7d2409e94a607aaae8640a5.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "ייפוי כח לבן/ בת הזוג",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_37fd900400304afc833348fb95aa05db.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "ייפוי כח נוטריוני לצד ג'",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_08ca7f9714194fe7928104a838f196ea.pdf",
+        "category": "מסמכים משפטיים"
+      },
+      {
+        "label": "מצגת כנס זוכים הגרלות 1970 ו 1968 מול ירדן בית שאן",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_972268d134c6426e95abdac2c5ec3369.pdf",
+        "category": "כנס זוכים"
+      },
+      {
+        "label": "היתר בנייה - הגרלה 1968, מגרש 250",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c3bf4255c5e1416499a7076eb425d663.pdf",
+        "category": "היתרים"
+      },
+      {
+        "label": "היתר בנייה - הגרלה 1968, מגרש 251",
+        "url": "https://www.yigal-group.com/_files/ugd/d42bfc_bc7a198f5f5044108667c8c20e2aff14.pdf",
+        "category": "היתרים"
+      }
+    ],
+    "buildings": [
+      {
+        "id": "D27",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין D27 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8aeec50b1c11488c8d40374eda51d726.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין D27 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_545266e09d4b4c419be8083468567e43.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין D27 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_fd6c2a8d6ad74bed8492ffaa258ac355.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין D27 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_9e27636a07dc48bf9da531916a498aee.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין D27 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7564c4dd0ee447e99c019e1b6a199e9a.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין D27 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_6d73b84d8d434d3c8736b9690610c1fb.pdf"
+          }
+        ]
+      },
+      {
+        "id": "D28",
+        "apartments": [
+          {
+            "number": "7",
+            "label": "בניין D28 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_eee961c6a93c435bb0317ae571a8e01b.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין D28 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d03e2778a9f1495b8a529e41512c788a.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין D28 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d9738ef628de431286cca1c0a9f5483c.pdf"
+          },
+          {
+            "number": "10",
+            "label": "בניין D28 · דירה 10",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_aa452f98b2404c6bb11368055dc7835a.pdf"
+          },
+          {
+            "number": "11",
+            "label": "בניין D28 · דירה 11",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_91c99e5b57ea49caaf17bba9ca5c0f3d.pdf"
+          },
+          {
+            "number": "12",
+            "label": "בניין D28 · דירה 12",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_6fd9c53acf6a40d0b31a98bd1f2da894.pdf"
+          },
+          {
+            "number": "13",
+            "label": "בניין D28 · דירה 13",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_2f5c8da912ad4b849cb96e54c99f5aee.pdf"
+          },
+          {
+            "number": "14",
+            "label": "בניין D28 · דירה 14",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_aa697e97c67f4f0783a2a795d521e31b.pdf"
+          },
+          {
+            "number": "15",
+            "label": "בניין D28 · דירה 15",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a424127eb24b4415b7927794958a56ed.pdf"
+          },
+          {
+            "number": "16",
+            "label": "בניין D28 · דירה 16",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7af471ed885c4db2a7f02a38b283adf6.pdf"
+          },
+          {
+            "number": "17",
+            "label": "בניין D28 · דירה 17",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_337803f6a712406abefe91389c92b9da.pdf"
+          },
+          {
+            "number": "19",
+            "label": "בניין D28 · דירה 19",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_275d66e82c7647d3934d3b8a9d6ac5f0.pdf"
+          },
+          {
+            "number": "20",
+            "label": "בניין D28 · דירה 20",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5d7c519b823543d2a97d3c9056ece7a1.pdf"
+          },
+          {
+            "number": "21",
+            "label": "בניין D28 · דירה 21",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_33039ae015194800a8c70df642e5a10d.pdf"
+          },
+          {
+            "number": "22",
+            "label": "בניין D28 · דירה 22",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7b4d81fa4885473e972d1b4158918722.pdf"
+          },
+          {
+            "number": "23",
+            "label": "בניין D28 · דירה 23",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ef35e1b41b14476199e8e2f8577cf2ea.pdf"
+          },
+          {
+            "number": "24",
+            "label": "בניין D28 · דירה 24",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_6218dcb6f2fe4422bf8bcdde2cafc7a6.pdf"
+          },
+          {
+            "number": "26",
+            "label": "בניין D28 · דירה 26",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_77c95bc9c8644b78afe8114ec5ff370e.pdf"
+          },
+          {
+            "number": "27",
+            "label": "בניין D28 · דירה 27",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_2bee0e1872d24574a1f93c68335d0ae7.pdf"
+          },
+          {
+            "number": "28",
+            "label": "בניין D28 · דירה 28",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0aebf9e1e82c4be99afe118b07699076.pdf"
+          },
+          {
+            "number": "29",
+            "label": "בניין D28 · דירה 29",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_3bb82ac2d72040d6988f2771f411e938.pdf"
+          },
+          {
+            "number": "30",
+            "label": "בניין D28 · דירה 30",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_90719bd0b97c4546aa7f21afac4e6db5.pdf"
+          },
+          {
+            "number": "31",
+            "label": "בניין D28 · דירה 31",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_87218f17589047cb99e1e1d3623f5228.pdf"
+          },
+          {
+            "number": "32",
+            "label": "בניין D28 · דירה 32",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8ef743a61dee4a5884ddf57b70c3125a.pdf"
+          }
+        ]
+      },
+      {
+        "id": "D29",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין D29 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_e7b8e4a865be415a8bb3e7b94b43d1e8.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין D29 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_89576f0bb59e4012a97874f6ea24a5cf.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין D29 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_b4db597f6a884ad8826939be3a781ccd.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין D29 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c695268a6ea649f483a7e049c425e6c2.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין D29 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4c436d2753ae47e9ad96429e1809f5e2.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין D29 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d545d6d3131d4c4b8f4626fd8a767bc9.pdf"
+          }
+        ]
+      },
+      {
+        "id": "D30",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין D30 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_faf3957231c44bf6936f8786f23519d2.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין D30 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5954a4fd33a648ae83771856a68634a9.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין D30 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_62c78f2392e64caeacee13646ce98d7e.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין D30 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8d7a794d237947f0bb47cf195197f811.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין D30 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_2979701e12854e65985bb8759352f91a.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין D30 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_169d4336c2bf406c804af578a9b34f46.pdf"
+          },
+          {
+            "number": "11",
+            "label": "בניין D30 · דירה 11",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_429fe31747914afe86a00b1b4d389b48.pdf"
+          },
+          {
+            "number": "12",
+            "label": "בניין D30 · דירה 12",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a71562b4903344d1ac3d4b6e0a9fa664.pdf"
+          }
+        ]
+      },
+      {
+        "id": "D31",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין D31 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_1f818270bba24a83b15b7901c94b8922.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין D31 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c75f13f9395347a7ba7ce9a8551fa515.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין D31 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4beba58989a748b78cb8b3a2ca7a4f2f.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין D31 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_3e9f202a2fab449fb339b283ebd0da32.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין D31 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_f87f785f7b264be2a46e967728796920.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין D31 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_67f890a4f4514689bef1a417930e9051.pdf"
+          }
+        ]
+      },
+      {
+        "id": "D32",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין D32 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_9dc36d59401f4eac8feac5f04b21fbf4.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין D32 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_0c51825dd02843c9b7c99b868512b928.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין D32 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_f418a1a639a147acb9ff6ddbe1406006.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין D32 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_75e82580a2db48e58bd5c28ad4b2d51e.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין D32 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_c8f2a19cc18046ad9b73d52b04a4b8c4.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין D32 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_6dd6605a601c49059370fb4e7cbe7e96.pdf"
+          },
+          {
+            "number": "9",
+            "label": "בניין D32 · דירה 9",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_22b9183c96804ee7aad633705a99a760.pdf"
+          },
+          {
+            "number": "10",
+            "label": "בניין D32 · דירה 10",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ce2f1742e7374fc8b2d6d5bdcbe1286c.pdf"
+          },
+          {
+            "number": "11",
+            "label": "בניין D32 · דירה 11",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_458c97ce7a5d48019c79eff935c6f584.pdf"
+          }
+        ]
+      },
+      {
+        "id": "D33",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין D33 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_55b61987f0fd47aaa7dd534958fdf202.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין D33 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_38b517bda14f4ea78adbd30015bb86f7.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין D33 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4433ad53565d46deb3b4b3f67e0b9332.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין D33 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_5095b8dd41e34d2091b0475a12cfb7b6.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין D33 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_76379f69494247969a68eb31ce84efc7.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין D33 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_d0b12131f7b94068ac10f8845399604d.pdf"
+          }
+        ]
+      },
+      {
+        "id": "D34",
+        "apartments": [
+          {
+            "number": "3",
+            "label": "בניין D34 · דירה 3",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_3eeffab83ddd404a82779a66ba7d15ed.pdf"
+          },
+          {
+            "number": "4",
+            "label": "בניין D34 · דירה 4",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_8fb091a70fd84afcadce3111f4a04fce.pdf"
+          },
+          {
+            "number": "5",
+            "label": "בניין D34 · דירה 5",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_ba1c16d467654bb1832b089203c0b6e8.pdf"
+          },
+          {
+            "number": "6",
+            "label": "בניין D34 · דירה 6",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_9111bd3b58fe4113893e36f54e2c64ee.pdf"
+          },
+          {
+            "number": "7",
+            "label": "בניין D34 · דירה 7",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_4591740cf2784529b2c152b188c24655.pdf"
+          },
+          {
+            "number": "8",
+            "label": "בניין D34 · דירה 8",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_7a3a9715d8b44d8192dd7aa24d894bd2.pdf"
+          },
+          {
+            "number": "10",
+            "label": "בניין D34 · דירה 10",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_00ec77e0ca6e4795a1f49838118b874e.pdf"
+          },
+          {
+            "number": "12",
+            "label": "בניין D34 · דירה 12",
+            "url": "https://www.yigal-group.com/_files/ugd/d42bfc_a73e8856863b4adfae17cb76ad7ddc92.pdf"
+          }
+        ]
+      }
+    ],
+    "floorPlans": [],
+    "apartmentSourceUrl": "https://www.yigal-group.com/copy-of-%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1974"
+  }
+]

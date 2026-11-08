@@ -1,0 +1,3 @@
+import type {Project} from '@/lib/projects';
+import {Icon} from './Icons';
+export function ProjectCard({project,index=0}:{project:Project;index?:number}) {return <a className="project-card" href={'/projects/'+project.slug}><div className="project-image"><img src={project.image} alt={`הדמיית פרויקט ${project.name}`} loading="lazy"/><span className="project-status">{project.category==='completed'?'פרויקט מאוכלס':'פרויקט בשיווק'}</span><span className="project-open"><Icon name="diagonal"/></span><span className="project-number" dir="ltr">0{index+1}</span></div><div className="project-card-caption"><div><span className="project-location">{project.location}</span><h3>{project.name}</h3></div><span className="project-english" dir="ltr">{project.english}</span></div></a>}

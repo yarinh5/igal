@@ -1,0 +1,53 @@
+[
+  {
+    "id": "blueprint",
+    "title": "מהקו אל המרחב",
+    "duration": 8,
+    "desktop": {
+      "src": "/compositions/blueprint/index.html",
+      "width": 1600,
+      "height": 900
+    },
+    "mobile": {
+      "src": "/compositions/blueprint/mobile/index.html",
+      "width": 720,
+      "height": 960,
+      "fallback": "/compositions/blueprint/mobile/fallback.svg"
+    },
+    "fallback": "/compositions/blueprint/fallback.svg"
+  },
+  {
+    "id": "process",
+    "title": "מהתכנון אל הבית",
+    "duration": 9,
+    "desktop": {
+      "src": "/compositions/process/index.html",
+      "width": 1600,
+      "height": 900
+    },
+    "mobile": {
+      "src": "/compositions/process/mobile/index.html",
+      "width": 720,
+      "height": 960,
+      "fallback": "/compositions/process/mobile/fallback.svg"
+    },
+    "fallback": "/compositions/process/fallback.svg"
+  },
+  {
+    "id": "chapter",
+    "title": "איכות. עיצוב. מיקום.",
+    "duration": 7,
+    "desktop": {
+      "src": "/compositions/chapter/index.html",
+      "width": 1600,
+      "height": 900
+    },
+    "mobile": {
+      "src": "/compositions/chapter/mobile/index.html",
+      "width": 720,
+      "height": 960,
+      "fallback": "/compositions/chapter/mobile/fallback.svg"
+    },
+    "fallback": "/compositions/chapter/fallback.svg"
+  }
+]

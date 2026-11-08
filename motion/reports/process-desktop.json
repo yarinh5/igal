@@ -1,0 +1,136 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 9,
+    "samples": [
+      0,
+      2.3,
+      4.7,
+      7.5,
+      8.9
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "specPath": "F:\\project love\\igal\\yigal-site\\public\\compositions\\process\\index.motion.json",
+    "samples": 181
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      0,
+      2.3,
+      4.7,
+      7.5,
+      8.9
+    ],
+    "checked": 38,
+    "passed": 38
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 72
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "audio_none",
+        "severity": "info",
+        "message": "The film has no sound: no clip in it plays audio.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ]
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": true,
+    "files": [
+      ".hyperframes\\artifacts\\snapshots\\ddc938ec-3b4e-4f94-9f1e-2f9d4747825d\\frame-00-at-0.0s.png",
+      ".hyperframes\\artifacts\\snapshots\\ddc938ec-3b4e-4f94-9f1e-2f9d4747825d\\frame-01-at-2.3s.png",
+      ".hyperframes\\artifacts\\snapshots\\ddc938ec-3b4e-4f94-9f1e-2f9d4747825d\\frame-02-at-4.7s.png",
+      ".hyperframes\\artifacts\\snapshots\\ddc938ec-3b4e-4f94-9f1e-2f9d4747825d\\frame-03-at-7.5s.png",
+      ".hyperframes\\artifacts\\snapshots\\ddc938ec-3b4e-4f94-9f1e-2f9d4747825d\\frame-04-at-8.9s.png"
+    ],
+    "times": [
+      0,
+      2.3,
+      4.7,
+      7.5,
+      8.9
+    ],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "cdd51f7f-4d54-464e-9d17-5139ec80c4da",
+    "revision": "776ff0f8-1d4d-4dc9-b62b-78125baf2053",
+    "report": "F:\\project love\\igal\\yigal-site\\public\\compositions\\process\\.hyperframes\\artifacts\\checks\\cdd51f7f-4d54-464e-9d17-5139ec80c4da.json",
+    "attribution": "recorded-revision"
+  },
+  "_meta": {
+    "version": "0.9.23",
+    "latestVersion": "0.9.23",
+    "updateAvailable": false,
+    "checkedAt": "2026-11-08T10:35:06.155Z",
+    "skillsOutdated": 4,
+    "skillsMissing": 0
+  }
+}

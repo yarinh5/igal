@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "outputDir": "F:\\project love\\igal\\yigal-site\\motion\\previews\\blueprint",
+  "frames": [
+    {
+      "path": "F:\\project love\\igal\\yigal-site\\motion\\previews\\blueprint\\frame-00-at-0s.png",
+      "time": 0
+    },
+    {
+      "path": "F:\\project love\\igal\\yigal-site\\motion\\previews\\blueprint\\frame-01-at-2s.png",
+      "time": 2
+    },
+    {
+      "path": "F:\\project love\\igal\\yigal-site\\motion\\previews\\blueprint\\frame-02-at-4.5s.png",
+      "time": 4.5
+    },
+    {
+      "path": "F:\\project love\\igal\\yigal-site\\motion\\previews\\blueprint\\frame-03-at-7.9s.png",
+      "time": 7.9
+    },
+    {
+      "path": "F:\\project love\\igal\\yigal-site\\motion\\previews\\blueprint\\frame-04-at-7.76s.png",
+      "time": 7.76
+    }
+  ],
+  "contactSheets": [
+    "F:\\project love\\igal\\yigal-site\\motion\\previews\\blueprint\\contact-sheet.jpg"
+  ],
+  "_meta": {
+    "version": "0.9.23",
+    "latestVersion": "0.9.23",
+    "updateAvailable": false,
+    "checkedAt": "2026-11-08T10:35:06.155Z",
+    "skillsOutdated": 4,
+    "skillsMissing": 0
+  }
+}

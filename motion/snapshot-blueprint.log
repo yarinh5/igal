@@ -1,0 +1,20 @@
+◆  Capturing 4 frames at [0s, 2s, 4.5s, 7.9s] from blueprint
+[hyperframes] browserGpuMode probe → hardware (WebGL renderer vendor="Google Inc. (NVIDIA)" renderer="ANGLE (NVIDIA, NVIDIA GeForce RTX 2060 SUPER (0x00001F06) Direct3D11 vs_5_0 ps_5_0, D3D11)")
+
+   Fonts: 1 loaded
+   Note: added an end-of-timeline frame at 7.76s. Short beats between your --at times may still be skipped — pass them explicitly.
+[hyperframes] snapshot: frame 1/5 at 0s
+[hyperframes] snapshot: frame 2/5 at 2s
+[hyperframes] snapshot: frame 3/5 at 4.5s
+[hyperframes] snapshot: frame 4/5 at 7.9s
+[hyperframes] snapshot: frame 5/5 at 7.76s
+   Revision: none (unversioned)
+   State: F:\project love\igal\yigal-site\public\compositions\blueprint\.hyperframes\video-state.json
+
+◇  5 snapshots saved to F:\project love\igal\yigal-site\motion\previews\blueprint
+   F:\project love\igal\yigal-site\motion\previews\blueprint\frame-00-at-0s.png
+   F:\project love\igal\yigal-site\motion\previews\blueprint\frame-01-at-2s.png
+   F:\project love\igal\yigal-site\motion\previews\blueprint\frame-02-at-4.5s.png
+   F:\project love\igal\yigal-site\motion\previews\blueprint\frame-03-at-7.9s.png
+   F:\project love\igal\yigal-site\motion\previews\blueprint\frame-04-at-7.76s.png
+   F:\project love\igal\yigal-site\motion\previews\blueprint\contact-sheet.jpg (grid view for AI review)

@@ -1,0 +1,190 @@
+{
+  "eyal-hero": {
+    "localPath": "/images/eyal-hero.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_c09f5706a70341789780c649909be701~mv2.jpg",
+    "sourcePage": "https://www.yigal-group.com/services-5",
+    "alt": "הדמיית פרויקט אייל SEVEN7 בבית שאן",
+    "width": 1920,
+    "height": 1438,
+    "sourceWidth": 2636,
+    "sourceHeight": 1974
+  },
+  "eyal-street": {
+    "localPath": "/images/eyal-street.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_4040c0164abd4af6aa0d7216118f34d8~mv2.jpg",
+    "sourcePage": "https://www.yigal-group.com/services-5",
+    "alt": "הדמיית רחוב בפרויקט אייל SEVEN7",
+    "width": 1920,
+    "height": 1438,
+    "sourceWidth": 2636,
+    "sourceHeight": 1974
+  },
+  "eyal-aerial": {
+    "localPath": "/images/eyal-aerial.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_313239b643e74329a83828cf3d8f9471~mv2.jpeg",
+    "sourcePage": "https://www.yigal-group.com/services-5",
+    "alt": "מבט על פרויקט אייל SEVEN7",
+    "width": 1600,
+    "height": 982,
+    "sourceWidth": 1600,
+    "sourceHeight": 982
+  },
+  "eyal-building": {
+    "localPath": "/images/eyal-building.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_fa5d1bea4847440091891c2cc902ccfc~mv2.jpeg",
+    "sourcePage": "https://www.yigal-group.com/services-5",
+    "alt": "הדמיית בניין בפרויקט אייל SEVEN7",
+    "width": 1600,
+    "height": 1198,
+    "sourceWidth": 1600,
+    "sourceHeight": 1198
+  },
+  "home-aerial": {
+    "localPath": "/images/home-aerial.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_95472cbf8c744c9e8760e6257ba9721c~mv2.jpg",
+    "sourcePage": "https://www.yigal-group.com/",
+    "alt": "הדמיית המתחם בבית שאן מתוך דף הבית",
+    "width": 1920,
+    "height": 1179,
+    "sourceWidth": 3360,
+    "sourceHeight": 2064
+  },
+  "nof-zemer-night": {
+    "localPath": "/images/nof-zemer-night.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_167d6da58d71456a9c6ca9bd43182889~mv2.jpg",
+    "sourcePage": "https://www.yigal-group.com/",
+    "alt": "הדמיית ערב של נוף זמר בחיפה",
+    "width": 1920,
+    "height": 1280,
+    "sourceWidth": 3000,
+    "sourceHeight": 2000
+  },
+  "commercial": {
+    "localPath": "/images/commercial.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_636cf450cebf408e9753230e1895edff~mv2.jpeg",
+    "sourcePage": "https://www.yigal-group.com/",
+    "alt": "הדמיית מרכז מסחרי מתוך אתר הקבוצה",
+    "width": 1600,
+    "height": 900,
+    "sourceWidth": 1600,
+    "sourceHeight": 900
+  },
+  "c1-afula": {
+    "localPath": "/images/c1-afula.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_32168483972a4845acbf37414ad12a9b~mv2.jpg",
+    "sourcePage": "https://www.yigal-group.com/פרויקטים-שהסתיימו",
+    "alt": "פרויקט C1 בעפולה",
+    "width": 1800,
+    "height": 1500,
+    "sourceWidth": 1800,
+    "sourceHeight": 1500
+  },
+  "nofim-b": {
+    "localPath": "/images/nofim-b.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_ddaa3bd6990e4629800ddaa2f6522612~mv2.jpg",
+    "sourcePage": "https://www.yigal-group.com/פרויקטים-שהסתיימו",
+    "alt": "פרויקט נופים שלב ב בבית שאן",
+    "width": 1920,
+    "height": 1332,
+    "sourceWidth": 3000,
+    "sourceHeight": 2081
+  },
+  "nofim-a": {
+    "localPath": "/images/nofim-a.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_ac066ccab5c949e7bb8359c63d13df0c~mv2.jpg",
+    "sourcePage": "https://www.yigal-group.com/פרויקטים-שהסתיימו",
+    "alt": "פרויקט נופים שלב א בבית שאן",
+    "width": 1170,
+    "height": 800,
+    "sourceWidth": 1170,
+    "sourceHeight": 800
+  },
+  "nof-hayarden": {
+    "localPath": "/images/nof-hayarden.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_886d6606485c42e8abf4b3852dc977e3~mv2.jpg",
+    "sourcePage": "https://www.yigal-group.com/פרויקטים-שהסתיימו",
+    "alt": "פרויקט נוף הירדן בבית שאן",
+    "width": 1920,
+    "height": 974,
+    "sourceWidth": 2513,
+    "sourceHeight": 1275
+  },
+  "eilon": {
+    "localPath": "/images/eilon.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_e821180af866476e864dc9866c279af4~mv2.jpg",
+    "sourcePage": "https://www.yigal-group.com/פרויקטים-שהסתיימו",
+    "alt": "פרויקט אילון באקליפטוס בבית שאן",
+    "width": 1920,
+    "height": 913,
+    "sourceWidth": 2536,
+    "sourceHeight": 1206
+  },
+  "ariel": {
+    "localPath": "/images/ariel.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_652635dc9c784157bc68e7f0da4429bd~mv2.jpg",
+    "sourcePage": "https://www.yigal-group.com/פרויקטים-שהסתיימו",
+    "alt": "הדמיית פרויקט אריאל באקליפטוס בבית שאן",
+    "width": 1920,
+    "height": 1080,
+    "sourceWidth": 3000,
+    "sourceHeight": 1687
+  },
+  "nof-zemer": {
+    "localPath": "/images/nof-zemer.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_2b37024a1b4749b084f5101f84716f48~mv2.jpg",
+    "sourcePage": "https://www.yigal-group.com/פרויקטים-שהסתיימו",
+    "alt": "הדמיית פרויקט נוף זמר בחיפה",
+    "width": 1920,
+    "height": 1279,
+    "sourceWidth": 2500,
+    "sourceHeight": 1666
+  },
+  "logo": {
+    "localPath": "/images/logo.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_1fdeaf185b004a44b37cb6358b387a01~mv2.png",
+    "sourcePage": "https://www.yigal-group.com/",
+    "alt": "קבוצת יגאל בוחבוט",
+    "width": 900,
+    "height": 900,
+    "sourceWidth": 2500,
+    "sourceHeight": 2500
+  },
+  "logo-vertical": {
+    "localPath": "/images/logo-vertical.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_3e28077d5b3447c1978e882aac37cdf0~mv2.png",
+    "sourcePage": "https://www.yigal-group.com/",
+    "alt": "קבוצת יגאל בוחבוט — סמל",
+    "width": 900,
+    "height": 900,
+    "sourceWidth": 2500,
+    "sourceHeight": 2500
+  },
+  "eyal-logo": {
+    "localPath": "/images/eyal-logo.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_dcba2dc7d5a541038a5807c6adcd83cd~mv2.png",
+    "sourcePage": "https://www.yigal-group.com/services-5",
+    "alt": "אייל SEVEN7",
+    "width": 267,
+    "height": 97,
+    "sourceWidth": 267,
+    "sourceHeight": 97
+  },
+  "group-logo": {
+    "localPath": "/images/group-logo.png",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_1fdeaf185b004a44b37cb6358b387a01~mv2.png/v1/fill/w_397,h_61,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%D7%A7%D7%91%D7%95%D7%A6%D7%AA%20%D7%99%D7%92%D7%90%D7%9C%20%D7%91%D7%95%D7%97%D7%91%D7%95%D7%98%20-%20%D7%A9%D7%95%D7%9B%D7%91.png",
+    "sourcePage": "https://www.yigal-group.com/",
+    "alt": "קבוצת יגאל בוחבוט",
+    "width": 397,
+    "height": 61
+  },
+  "mol-yarden": {
+    "localPath": "/images/mol-yarden.webp",
+    "sourceUrl": "https://static.wixstatic.com/media/d42bfc_a7b073c56e3c4fb2ba1d2499e4cf034b~mv2.jpg",
+    "sourcePage": "https://www.yigal-group.com/copy-of-הגרלה-מספר-1970",
+    "alt": "הדמיית פרויקט מול ירדן בבית שאן",
+    "width": 1920,
+    "height": 820,
+    "sourceWidth": 2481,
+    "sourceHeight": 1059
+  }
+}

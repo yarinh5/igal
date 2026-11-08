@@ -1,0 +1,263 @@
+{
+  "checkedAt": "2026-11-08T11:09:48.592Z",
+  "routes": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/about",
+      "status": 200
+    },
+    {
+      "path": "/projects",
+      "status": 200
+    },
+    {
+      "path": "/commercial",
+      "status": 200
+    },
+    {
+      "path": "/contact",
+      "status": 200
+    },
+    {
+      "path": "/lotteries",
+      "status": 200
+    },
+    {
+      "path": "/lotteries/2092",
+      "status": 200
+    },
+    {
+      "path": "/lotteries/1975",
+      "status": 200
+    },
+    {
+      "path": "/lotteries/1974",
+      "status": 200
+    },
+    {
+      "path": "/lotteries/1973",
+      "status": 200
+    },
+    {
+      "path": "/lotteries/1972",
+      "status": 200
+    },
+    {
+      "path": "/lotteries/1971",
+      "status": 200
+    },
+    {
+      "path": "/lotteries/1970",
+      "status": 200
+    },
+    {
+      "path": "/lotteries/1969",
+      "status": 200
+    },
+    {
+      "path": "/lotteries/1968",
+      "status": 200
+    },
+    {
+      "path": "/projects/eyal-seven",
+      "status": 200
+    },
+    {
+      "path": "/projects/mol-yarden",
+      "status": 200
+    },
+    {
+      "path": "/projects/nof-zemer",
+      "status": 200
+    },
+    {
+      "path": "/projects/nofim-a",
+      "status": 200
+    },
+    {
+      "path": "/projects/nofim-b",
+      "status": 200
+    },
+    {
+      "path": "/projects/nof-hayarden",
+      "status": 200
+    },
+    {
+      "path": "/projects/eilon",
+      "status": 200
+    },
+    {
+      "path": "/projects/ariel",
+      "status": 200
+    },
+    {
+      "path": "/projects/c1-afula",
+      "status": 200
+    },
+    {
+      "legacy": "/copy-of-%D7%94%D7%92%D7%A8%D7%9C%D7%94-%D7%9E%D7%A1%D7%A4%D7%A8-1970",
+      "destination": "/lotteries/2092",
+      "status": 200
+    },
+    {
+      "legacy": "/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8",
+      "destination": "/contact",
+      "status": 200
+    },
+    {
+      "legacy": "/%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1973",
+      "destination": "/lotteries/1973",
+      "status": 200
+    },
+    {
+      "legacy": "/%D7%9E%D7%95%D7%9C-%D7%99%D7%A8%D7%93%D7%9F-%D7%A9%D7%99%D7%95%D7%95%D7%A7",
+      "destination": "/lotteries",
+      "status": 200
+    },
+    {
+      "legacy": "/copy-of-%D7%94%D7%92%D7%A8%D7%9C%D7%94-%D7%9E%D7%A1-1974-1",
+      "destination": "/lotteries/1972",
+      "status": 200
+    },
+    {
+      "legacy": "/%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98%D7%99%D7%9D-%D7%A9%D7%94%D7%A1%D7%AA%D7%99%D7%99%D7%9E%D7%95",
+      "destination": "/projects",
+      "status": 200
+    },
+    {
+      "legacy": "/copy-of-%D7%94%D7%92%D7%A8%D7%9C%D7%94-%D7%9E%D7%A1-1971",
+      "destination": "/lotteries/1973",
+      "status": 200
+    },
+    {
+      "legacy": "/inquiry-services-page",
+      "destination": "/contact",
+      "status": 200
+    },
+    {
+      "legacy": "/copy-of-%D7%94%D7%92%D7%A8%D7%9C%D7%94-%D7%9E%D7%A1-1971-2",
+      "destination": "/lotteries/1968",
+      "status": 200
+    },
+    {
+      "legacy": "/%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1975",
+      "destination": "/lotteries/1969",
+      "status": 200
+    },
+    {
+      "legacy": "/copy-of-%D7%94%D7%92%D7%A8%D7%9C%D7%94-%D7%9E%D7%A1%D7%A4%D7%A8-1968-1",
+      "destination": "/lotteries/1970",
+      "status": 200
+    },
+    {
+      "legacy": "/services-5",
+      "destination": "/projects/eyal-seven",
+      "status": 200
+    },
+    {
+      "legacy": "/%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1974",
+      "destination": "/lotteries/1974",
+      "status": 200
+    },
+    {
+      "legacy": "/",
+      "destination": "/",
+      "status": 200
+    },
+    {
+      "legacy": "/copy-of-%D7%93%D7%99%D7%A8%D7%94-%D7%91%D7%94%D7%A0%D7%97%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%95%D7%AA",
+      "destination": "/about",
+      "status": 200
+    },
+    {
+      "legacy": "/services-1",
+      "destination": "/commercial",
+      "status": 200
+    },
+    {
+      "legacy": "/%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1969",
+      "destination": "/lotteries/1975",
+      "status": 200
+    },
+    {
+      "legacy": "/copy-of-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1975-1",
+      "destination": "/lotteries/1969",
+      "status": 200
+    },
+    {
+      "legacy": "/%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-2092",
+      "destination": "/lotteries/2092",
+      "status": 200
+    },
+    {
+      "legacy": "/%D7%98%D7%99%D7%A4%D7%95%D7%A1%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1973",
+      "destination": "/lotteries/1973",
+      "status": 200
+    },
+    {
+      "legacy": "/copy-of-%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1974",
+      "destination": "/lotteries/1968",
+      "status": 200
+    },
+    {
+      "legacy": "/copy-of-%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1971-1",
+      "destination": "/lotteries/1970",
+      "status": 200
+    },
+    {
+      "legacy": "/%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98%D7%99%D7%9D-%D7%91%D7%91%D7%99%D7%A6%D7%95%D7%A2",
+      "destination": "/projects",
+      "status": 200
+    },
+    {
+      "legacy": "/%D7%94%D7%92%D7%A8%D7%9C%D7%94-%D7%9E%D7%A1-1971",
+      "destination": "/lotteries/1971",
+      "status": 200
+    },
+    {
+      "legacy": "/s-projects-side-by-side",
+      "destination": "/lotteries",
+      "status": 200
+    },
+    {
+      "legacy": "/copy-of-%D7%94%D7%92%D7%A8%D7%9C%D7%94-%D7%9E%D7%A1-1971-1",
+      "destination": "/lotteries/1974",
+      "status": 200
+    },
+    {
+      "legacy": "/%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1972",
+      "destination": "/lotteries/1972",
+      "status": 200
+    },
+    {
+      "legacy": "/copy-of-%D7%98%D7%99%D7%A4%D7%95%D7%A1%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1973",
+      "destination": "/lotteries/1971",
+      "status": 200
+    },
+    {
+      "legacy": "/copy-of-%D7%94%D7%92%D7%A8%D7%9C%D7%94-%D7%9E%D7%A1%D7%A4%D7%A8-1968-2",
+      "destination": "/lotteries/1975",
+      "status": 200
+    },
+    {
+      "legacy": "/%D7%AA%D7%A9%D7%A8%D7%99%D7%98%D7%99-%D7%93%D7%99%D7%A8%D7%94-%D7%94%D7%92%D7%A8%D7%9C%D7%94-1971",
+      "destination": "/lotteries/1971",
+      "status": 200
+    }
+  ],
+  "api": [
+    "valid insert",
+    "identical retry",
+    "conflicting retry",
+    "phone validation",
+    "honeypot",
+    "origin",
+    "JSON",
+    "body limit",
+    "content type"
+  ],
+  "scope": "Local preview only"
+}

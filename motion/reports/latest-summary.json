@@ -1,0 +1,86 @@
+[
+  {
+    "name": "blueprint-desktop",
+    "passed": true,
+    "findings": [],
+    "frames": [
+      0,
+      2,
+      4,
+      6,
+      7.9
+    ],
+    "contrast": 14,
+    "motionSamples": 161
+  },
+  {
+    "name": "blueprint-mobile",
+    "passed": true,
+    "findings": [],
+    "frames": [
+      0,
+      2,
+      4,
+      6,
+      7.9
+    ],
+    "contrast": 14,
+    "motionSamples": 161
+  },
+  {
+    "name": "process-desktop",
+    "passed": true,
+    "findings": [],
+    "frames": [
+      0,
+      2.3,
+      4.7,
+      7.5,
+      8.9
+    ],
+    "contrast": 38,
+    "motionSamples": 181
+  },
+  {
+    "name": "process-mobile",
+    "passed": true,
+    "findings": [],
+    "frames": [
+      0,
+      2.3,
+      4.7,
+      7.5,
+      8.9
+    ],
+    "contrast": 38,
+    "motionSamples": 181
+  },
+  {
+    "name": "chapter-desktop",
+    "passed": true,
+    "findings": [],
+    "frames": [
+      0,
+      1.5,
+      3,
+      4.5,
+      6.9
+    ],
+    "contrast": 19,
+    "motionSamples": 141
+  },
+  {
+    "name": "chapter-mobile",
+    "passed": true,
+    "findings": [],
+    "frames": [
+      0,
+      1.5,
+      3,
+      4.5,
+      6.9
+    ],
+    "contrast": 19,
+    "motionSamples": 141
+  }
+]
