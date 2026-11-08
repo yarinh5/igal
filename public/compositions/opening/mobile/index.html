@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="he" dir="rtl" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=900, height=1200" />
+    <title>Yigal Group opening</title><script src="assets/hyperframe.runtime.min.js"></script><script src="assets/gsap.min.js"></script>
+    <style>
+      @font-face {font-family:Assistant;src:url('assets/assistant-hebrew.woff2') format('woff2');font-weight:200 800;font-style:normal;font-display:block}
+      :root {
+        --ground: #0b0909;
+        --ground-warm: #171111;
+        --ink: #f2eeeb;
+        --muted: #756c69;
+        --accent: #ef1b2d;
+        --font-display: Assistant, Arial, sans-serif;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: var(--ground);
+      }
+      #root {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        font-family: var(--font-display);
+        background:
+          radial-gradient(circle at 50% 47%, rgba(94, 13, 19, 0.24), transparent 34%),
+          var(--ground);
+      }
+
+      #loader-scene {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+        perspective: 1500px;
+        display: grid;
+        place-items: center;
+      }
+
+      .ambient-field {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+      }
+
+      .ambient-field::before {
+        content: "";
+        position: absolute;
+        inset: 10%;
+        border: 1px solid rgba(239, 27, 45, 0.08);
+      }
+
+      .ambient-field::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 0;
+        width: 1px;
+        height: 100%;
+        background: rgba(242, 238, 235, 0.055);
+      }
+
+      #drafting-lines {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+      }
+
+      #drafting-lines path {
+        fill: none;
+        stroke: rgba(242, 238, 235, 0.19);
+        stroke-width: 1.5;
+        vector-effect: non-scaling-stroke;
+      }
+
+      #drafting-lines path.accent-path {
+        stroke: rgba(239, 27, 45, 0.56);
+        stroke-width: 2.25;
+      }
+
+      .corner-mark {
+        position: absolute;
+        width: 56px;
+        height: 56px;
+        opacity: 0.26;
+      }
+      .corner-mark::before,
+      .corner-mark::after {
+        content: "";
+        position: absolute;
+        background: var(--muted);
+      }
+      .corner-mark::before { width: 56px; height: 1px; }
+      .corner-mark::after { width: 1px; height: 56px; }
+      .corner-mark.tl { top: 86px; left: 86px; }
+      .corner-mark.tr { top: 86px; right: 86px; transform: scaleX(-1); }
+      .corner-mark.bl { bottom: 86px; left: 86px; transform: scaleY(-1); }
+      .corner-mark.br { bottom: 86px; right: 86px; transform: scale(-1); }
+
+      #brand-stage {
+        position: relative;
+        width: 1520px;
+        height: 860px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform-style: preserve-3d;
+        will-change: transform, opacity;
+      }
+
+      #logo-bloom {
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        width: 620px;
+        height: 620px;
+        margin-left: -310px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(163, 11, 24, 0.38) 0%, rgba(91, 7, 14, 0.18) 42%, transparent 72%);
+        opacity: 0;
+        z-index: 0;
+        will-change: transform, opacity;
+      }
+
+      #logo-lockup {
+        position: relative;
+        width: 340px;
+        height: 340px;
+        z-index: 2;
+        transform-style: preserve-3d;
+      }
+
+      .logo-fragment {
+        position: absolute;
+        inset: 0;
+        width: 340px;
+        height: 340px;
+        background-image: url("assets/logo.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        will-change: transform, opacity;
+      }
+      .logo-fragment:nth-child(1) { clip-path: polygon(0 0, 52% 0, 52% 52%, 0 52%); }
+      .logo-fragment:nth-child(2) { clip-path: polygon(48% 0, 100% 0, 100% 52%, 48% 52%); }
+      .logo-fragment:nth-child(3) { clip-path: polygon(0 48%, 52% 48%, 52% 100%, 0 100%); }
+      .logo-fragment:nth-child(4) { clip-path: polygon(48% 48%, 100% 48%, 100% 100%, 48% 100%); }
+
+      #brand-copy {
+        position: relative;
+        z-index: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -16px;
+        direction: rtl;
+      }
+
+      #brand-name-mask {
+        padding: 0 24px;
+      }
+
+      #brand-name {
+        color: var(--ink);
+        font-size: 144px;
+        font-weight: 650;
+        line-height: 1.15;
+        letter-spacing: -.035em;
+        display:flex;
+        gap: .22em;
+        justify-content:center;
+      }
+
+      #brand-rule {
+        width: 580px;
+        height: 2px;
+        margin-top: 22px;
+        transform-origin: center;
+        background: linear-gradient(90deg, transparent, var(--accent) 18%, var(--accent) 82%, transparent);
+        will-change: transform, opacity;
+      }
+
+      .micro-label {
+        position: absolute;
+        left: 104px;
+        bottom: 96px;
+        color: rgba(242, 238, 235, 0.38);
+        font-family: Consolas, monospace;
+        font-size: 18px;
+        letter-spacing: 0.22em;
+        direction: ltr;
+      }
+
+      #exit-veil {
+        position: absolute;
+        inset: 0;
+        z-index: 8;
+        background: var(--ground);
+        opacity: 0;
+        pointer-events: none;
+      }
+      .word-mask{display:block;overflow:hidden;padding:0 .04em .13em;perspective:900px}
+      .brand-word{display:block;transform-origin:50% 100%;will-change:transform,opacity}
+      #group-mask{overflow:hidden;margin-bottom:4px}
+      #group-name{display:block;font-size:48px;font-weight:400;color:var(--ink);line-height:1.2}
+      #brand-english{font-family:Arial,sans-serif;font-size:28px;letter-spacing:.32em;color:#c5bcb8;margin-top:22px;direction:ltr}
+      #logo-bloom{top:65px}
+      [data-resolution="portrait"] #brand-stage{width:820px;height:1020px}
+      [data-resolution="portrait"] #brand-name{font-size:116px}
+      [data-resolution="portrait"] #group-name{font-size:58px}
+      [data-resolution="portrait"] #brand-english{font-size:26px}
+      [data-resolution="portrait"] #brand-rule{width:600px}
+      [data-resolution="portrait"] .micro-label{left:58px;bottom:64px}
+      [data-resolution="portrait"] .corner-mark.tl{left:48px;top:56px}
+      [data-resolution="portrait"] .corner-mark.tr{right:48px;top:56px}
+      [data-resolution="portrait"] .corner-mark.bl{left:48px;bottom:56px}
+      [data-resolution="portrait"] .corner-mark.br{right:48px;bottom:56px}
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="3"
+      data-width="900"
+      data-height="1200"
+      data-fps="60"
+    >
+      <section id="loader-scene">
+        <div class="ambient-field" data-layout-ignore></div>
+        <svg id="drafting-lines" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice" aria-hidden="true" data-layout-ignore>
+          <path d="M 120 822 L 548 394 L 804 650" />
+          <path d="M 1376 708 L 1628 456 L 1810 638" />
+          <path d="M 268 540 L 1652 540" />
+          <path d="M 960 98 L 960 982" />
+          <path d="M 602 832 L 960 474 L 1318 832" />
+          <path class="accent-path" d="M 770 720 L 960 530 L 1150 720" />
+          <path d="M 706 188 L 1214 188" />
+          <path d="M 706 892 L 1214 892" />
+        </svg>
+        <span class="corner-mark tl" data-layout-ignore></span>
+        <span class="corner-mark tr" data-layout-ignore></span>
+        <span class="corner-mark bl" data-layout-ignore></span>
+        <span class="corner-mark br" data-layout-ignore></span>
+
+        <div id="brand-stage">
+          <div id="logo-bloom" data-layout-ignore></div>
+          <div id="logo-lockup" aria-label="לוגו קבוצת יגאל בוחבוט">
+            <div class="logo-fragment" aria-hidden="true"></div>
+            <div class="logo-fragment" aria-hidden="true"></div>
+            <div class="logo-fragment" aria-hidden="true"></div>
+            <div class="logo-fragment" aria-hidden="true"></div>
+          </div>
+          <div id="brand-copy">
+            <div id="group-mask"><span id="group-name">קבוצת</span></div>
+            <div id="brand-name-mask"><div id="brand-name" aria-label="יגאל בוחבוט"><span class="word-mask"><span id="brand-yigal" class="brand-word" data-layout-allow-overflow>יגאל</span></span><span class="word-mask"><span id="brand-bohbot" class="brand-word" data-layout-allow-overflow>בוחבוט</span></span></div></div>
+            <div id="brand-rule"></div>
+            <div id="brand-english">YIGAL GROUP</div>
+          </div>
+        </div>
+
+        <div class="micro-label" data-layout-ignore>YIGAL GROUP / 03.00</div>
+        <div id="exit-veil" data-layout-ignore></div>
+      </section>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+
+      const paths = Array.from(document.querySelectorAll("#drafting-lines path"));
+      paths.forEach((path) => {
+        const length = path.getTotalLength();
+        path.style.strokeDasharray = String(length);
+        path.style.strokeDashoffset = String(length);
+      });
+
+      paths.forEach((path, index) => {
+        tl.to(path, {
+          strokeDashoffset: 0,
+          duration: index === 5 ? 0.42 : 0.56,
+          ease: index === 5 ? "power3.out" : "power2.out"
+        }, 0.12 + index * 0.055);
+      });
+
+      const fragments = Array.from(document.querySelectorAll(".logo-fragment"));
+      const starts = [
+        { x: -210, y: -130, z: 250, rotationX: -54, rotationY: 46 },
+        { x: 190, y: -150, z: -180, rotationX: 38, rotationY: -62 },
+        { x: -180, y: 155, z: -240, rotationX: 62, rotationY: 34 },
+        { x: 220, y: 128, z: 210, rotationX: -42, rotationY: -48 }
+      ];
+
+      fragments.forEach((fragment, index) => {
+        tl.fromTo(fragment,
+          { ...starts[index], opacity: 0 },
+          {
+            x: 0,
+            y: 0,
+            z: 0,
+            rotationX: 0,
+            rotationY: 0,
+            opacity: 1,
+            duration: 0.88,
+            ease: index === 3 ? "back.out(1.18)" : "power4.out"
+          },
+          0.15 + index * 0.045
+        );
+      });
+
+      tl.fromTo("#logo-bloom",
+        { opacity: 0, scale: 0.82 },
+        { opacity: 0.32, scale: 1, duration: 0.9, ease: "power2.out" },
+        0.34
+      );
+
+      tl.fromTo("#group-name", { yPercent: 110, opacity: 0 }, { yPercent: 0, opacity: 1, duration: .48, ease: "power3.out" }, .48);
+      tl.fromTo(".brand-word", { yPercent: 115, rotationX: -32, opacity: 0 }, { yPercent: 0, rotationX: 0, opacity: 1, duration: .62, stagger: .12, ease: "power4.out" }, .62);
+      tl.fromTo("#brand-english", { y: 12, opacity: 0 }, { y: 0, opacity: 1, duration: .38, ease: "power2.out" }, .8);
+      tl.fromTo("#brand-rule",
+        { scaleX: 0, opacity: 0 },
+        { scaleX: 1, opacity: 1, duration: 0.46, ease: "expo.out" },
+        1.04
+      );
+
+      tl.to("#logo-bloom", { opacity: 0.38, scale: 1.025, duration: 1.08, ease: "sine.inOut" }, 1.45);
+
+      tl.to("#drafting-lines", { opacity: 0.24, scale: 1.025, duration: 0.38, ease: "power2.in" }, 2.52);
+      tl.to("#brand-stage", { y: -24, opacity: 0, duration: 0.3, ease: "power3.in" }, 2.7);
+      tl.to("#exit-veil", { opacity: 1, duration: 0.32, ease: "power2.in" }, 2.68);
+
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

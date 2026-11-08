@@ -3,13 +3,13 @@ workflow: motion-graphics
 flow: automation
 storyboard: no
 message: "Yigal Group emerges from architectural linework into a precise premium brand lockup."
-destination: "In-chat approval preview before website implementation"
-aspect: "16:9"
+destination: "Website opening, played as HTML through the official HyperFrames player"
+aspect: "16:9 desktop, 3:4 mobile"
 language: "he"
 length: "3 seconds"
 ---
 
-Throwaway approval spike for the website loader. It uses the supplied official Yigal Group logo, the established charcoal and red brand palette, and no invented business claims.
+Production website opening. It uses the supplied official Yigal Group logo, the established charcoal and red brand palette, and no invented business claims. Both desktop and mobile use the same HTML animation without video autoplay dependencies.
 
-The motion has three beats: architectural lines draw in, the official logo assembles from four depth-separated fragments, and the YIGAL GROUP name settles before the frame resolves toward the website handoff. The website itself is not changed by this sample.
+Architectural lines draw in, the official logo assembles, and קבוצת יגאל בוחבוט reveals word by word through masks. The Hebrew name holds clearly before a short exit into the website. scripts/prepare-opening.mjs publishes desktop and portrait variants with the same choreography and bundled assets.
 

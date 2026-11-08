@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=1920, height=1080" />
     <title>Yigal Group opening</title><script src="assets/hyperframe.runtime.min.js"></script><script src="assets/gsap.min.js"></script>
     <style>
+      @font-face {font-family:Assistant;src:url('assets/assistant-hebrew.woff2') format('woff2');font-weight:200 800;font-style:normal;font-display:block}
       :root {
         --ground: #0b0909;
         --ground-warm: #171111;
         --ink: #f2eeeb;
         --muted: #756c69;
         --accent: #ef1b2d;
-        --font-display: Arial, Helvetica, sans-serif;
+        --font-display: Assistant, Arial, sans-serif;
       }
       * {
         margin: 0;
@@ -21,8 +22,8 @@
       html,
       body {
         margin: 0;
-        width: 1920px;
-        height: 1080px;
+        width: 100%;
+        height: 100%;
         overflow: hidden;
         background: var(--ground);
       }
@@ -109,8 +110,8 @@
 
       #brand-stage {
         position: relative;
-        width: 760px;
-        height: 720px;
+        width: 1520px;
+        height: 860px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -135,8 +136,8 @@
 
       #logo-lockup {
         position: relative;
-        width: 440px;
-        height: 440px;
+        width: 340px;
+        height: 340px;
         z-index: 2;
         transform-style: preserve-3d;
       }
@@ -144,8 +145,8 @@
       .logo-fragment {
         position: absolute;
         inset: 0;
-        width: 440px;
-        height: 440px;
+        width: 340px;
+        height: 340px;
         background-image: url("assets/logo.webp");
         background-position: center;
         background-repeat: no-repeat;
@@ -165,28 +166,27 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: -28px;
-        direction: ltr;
+        margin-top: -16px;
+        direction: rtl;
       }
 
       #brand-name-mask {
-        overflow: hidden;
-        padding: 14px 24px 8px;
+        padding: 0 24px;
       }
 
       #brand-name {
         color: var(--ink);
-        font-size: 54px;
-        font-weight: 700;
-        line-height: 1;
-        letter-spacing: 0.27em;
-        padding-left: 0.27em;
-        opacity: 0;
-        will-change: transform, opacity;
+        font-size: 144px;
+        font-weight: 650;
+        line-height: 1.15;
+        letter-spacing: -.035em;
+        display:flex;
+        gap: .22em;
+        justify-content:center;
       }
 
       #brand-rule {
-        width: 390px;
+        width: 580px;
         height: 2px;
         margin-top: 22px;
         transform-origin: center;
@@ -213,6 +213,22 @@
         opacity: 0;
         pointer-events: none;
       }
+      .word-mask{display:block;overflow:hidden;padding:0 .04em .13em;perspective:900px}
+      .brand-word{display:block;transform-origin:50% 100%;will-change:transform,opacity}
+      #group-mask{overflow:hidden;margin-bottom:4px}
+      #group-name{display:block;font-size:48px;font-weight:400;color:var(--ink);line-height:1.2}
+      #brand-english{font-family:Arial,sans-serif;font-size:28px;letter-spacing:.32em;color:#c5bcb8;margin-top:22px;direction:ltr}
+      #logo-bloom{top:65px}
+      [data-resolution="portrait"] #brand-stage{width:820px;height:1020px}
+      [data-resolution="portrait"] #brand-name{font-size:116px}
+      [data-resolution="portrait"] #group-name{font-size:58px}
+      [data-resolution="portrait"] #brand-english{font-size:26px}
+      [data-resolution="portrait"] #brand-rule{width:600px}
+      [data-resolution="portrait"] .micro-label{left:58px;bottom:64px}
+      [data-resolution="portrait"] .corner-mark.tl{left:48px;top:56px}
+      [data-resolution="portrait"] .corner-mark.tr{right:48px;top:56px}
+      [data-resolution="portrait"] .corner-mark.bl{left:48px;bottom:56px}
+      [data-resolution="portrait"] .corner-mark.br{right:48px;bottom:56px}
     </style>
   </head>
   <body>
@@ -227,7 +243,7 @@
     >
       <section id="loader-scene">
         <div class="ambient-field" data-layout-ignore></div>
-        <svg id="drafting-lines" viewBox="0 0 1920 1080" aria-hidden="true" data-layout-ignore>
+        <svg id="drafting-lines" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice" aria-hidden="true" data-layout-ignore>
           <path d="M 120 822 L 548 394 L 804 650" />
           <path d="M 1376 708 L 1628 456 L 1810 638" />
           <path d="M 268 540 L 1652 540" />
@@ -251,8 +267,10 @@
             <div class="logo-fragment" aria-hidden="true"></div>
           </div>
           <div id="brand-copy">
-            <div id="brand-name-mask"><div id="brand-name" data-layout-allow-overflow>YIGAL GROUP</div></div>
+            <div id="group-mask"><span id="group-name">קבוצת</span></div>
+            <div id="brand-name-mask"><div id="brand-name" aria-label="יגאל בוחבוט"><span class="word-mask"><span id="brand-yigal" class="brand-word" data-layout-allow-overflow>יגאל</span></span><span class="word-mask"><span id="brand-bohbot" class="brand-word" data-layout-allow-overflow>בוחבוט</span></span></div></div>
             <div id="brand-rule"></div>
+            <div id="brand-english">YIGAL GROUP</div>
           </div>
         </div>
 
@@ -299,7 +317,7 @@
             duration: 0.88,
             ease: index === 3 ? "back.out(1.18)" : "power4.out"
           },
-          0.34 + index * 0.07
+          0.15 + index * 0.045
         );
       });
 
@@ -309,23 +327,19 @@
         0.34
       );
 
-      tl.set("#brand-name", { opacity: 1, y: 72 }, 0.88);
-      tl.to("#brand-name", { y: 0, duration: 0.34, ease: "power4.out" }, 0.88);
+      tl.fromTo("#group-name", { yPercent: 110, opacity: 0 }, { yPercent: 0, opacity: 1, duration: .48, ease: "power3.out" }, .48);
+      tl.fromTo(".brand-word", { yPercent: 115, rotationX: -32, opacity: 0 }, { yPercent: 0, rotationX: 0, opacity: 1, duration: .62, stagger: .12, ease: "power4.out" }, .62);
+      tl.fromTo("#brand-english", { y: 12, opacity: 0 }, { y: 0, opacity: 1, duration: .38, ease: "power2.out" }, .8);
       tl.fromTo("#brand-rule",
         { scaleX: 0, opacity: 0 },
         { scaleX: 1, opacity: 1, duration: 0.46, ease: "expo.out" },
         1.04
       );
 
-      tl.fromTo("#brand-stage",
-        { scale: 0.985 },
-        { scale: 1.018, duration: 1.08, ease: "sine.inOut" },
-        1.45
-      );
       tl.to("#logo-bloom", { opacity: 0.38, scale: 1.025, duration: 1.08, ease: "sine.inOut" }, 1.45);
 
       tl.to("#drafting-lines", { opacity: 0.24, scale: 1.025, duration: 0.38, ease: "power2.in" }, 2.52);
-      tl.to("#brand-stage", { scale: 1.075, opacity: 0, duration: 0.38, ease: "power3.in" }, 2.56);
+      tl.to("#brand-stage", { y: -24, opacity: 0, duration: 0.3, ease: "power3.in" }, 2.7);
       tl.to("#exit-veil", { opacity: 1, duration: 0.32, ease: "power2.in" }, 2.68);
 
       window.__timelines["main"] = tl;

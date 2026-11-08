@@ -1,9 +1,9 @@
 .brand-opening{position:fixed;inset:0;z-index:10000;background:#0b0909;overflow:hidden;display:grid;place-items:center;touch-action:none;overscroll-behavior:contain}
-.brand-opening-video{position:absolute;width:100%;height:100%;object-fit:contain;pointer-events:none;opacity:0}
-.brand-opening[data-playing=true] .brand-opening-video{opacity:1}
 .brand-opening[data-playing=true] .brand-opening-fallback{visibility:hidden}
 .brand-opening-fallback{position:absolute;width:100%;height:100%;object-fit:contain;pointer-events:none}
+.brand-opening-fallback img{width:100%;height:100%;object-fit:contain}
 .brand-opening-composition{position:absolute;width:min(100vw,177.777778dvh);aspect-ratio:16/9;pointer-events:none;opacity:0}
+.brand-opening-composition[data-portrait=true]{width:min(100vw,75dvh);aspect-ratio:3/4}
 .brand-opening-composition hyperframes-player{display:block;width:100%;height:100%}
 .brand-opening[data-playing=true] .brand-opening-composition{opacity:1}
 .brand-opening-skip{position:absolute;bottom:max(24px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);padding:12px 24px;min-height:48px;color:#f2eeeb;background:#171111;border:1px solid #756c69;border-radius:0;cursor:pointer;font:inherit}

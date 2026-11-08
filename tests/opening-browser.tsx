@@ -18,7 +18,7 @@ function schedule(mode:string){
    const opening=document.querySelector('.brand-opening');
    const p=document.querySelector('hyperframes-player') as any;
    const doc=p?.iframeElement?.contentDocument;
-   report.textContent+='\n'+JSON.stringify({ms:Math.round(performance.now()-began),active:!!opening,playing:opening?.getAttribute('data-playing'),video:!!document.querySelector('video'),composition:!!p,time:p?.currentTime,nameOpacity:doc?.querySelector('#brand-name')?.style.opacity,fragment:doc?.querySelector('.logo-fragment')?.style.transform});
+   report.textContent+='\n'+JSON.stringify({ms:Math.round(performance.now()-began),active:!!opening,playing:opening?.getAttribute('data-playing'),video:!!document.querySelector('video'),composition:!!p,time:p?.currentTime,name:doc?.querySelector('#brand-name')?.textContent,nameOpacity:doc?.querySelector('#brand-bohbot')?.style.opacity,fragment:doc?.querySelector('.logo-fragment')?.style.transform});
    if(!opening||performance.now()-began>9000)clearInterval(capture);
   },400);
  },2000);
