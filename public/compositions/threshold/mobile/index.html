@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head><meta charset="UTF-8"><meta name="viewport" content="width=720,height=720"><title>מהמחשבה אל המרחב. — Yigal Group</title>
+<script src="assets/hyperframe.runtime.min.js"></script><script src="assets/gsap.min.js"></script>
+<style>
+@font-face{font-family:Assistant;src:url('assets/assistant-hebrew.woff2') format('woff2');font-weight:200 800;font-style:normal;font-display:block}
+*{box-sizing:border-box}html,body{width:100%;height:100%;margin:0}body{background:#25241f;color:#25241f;font-family:Assistant,sans-serif}#root{position:relative;width:100%;height:100%;overflow:hidden;background:#25241f}#threshold-scene{position:absolute;inset:0}
+.perspective-stage{position:absolute;inset:0;perspective:780px;perspective-origin:50% 50%}
+.passage-world{position:absolute;inset:0;transform-style:preserve-3d}
+.portal{position:absolute;left:-120px;top:-165px;width:960px;height:1050px;transform-style:preserve-3d}
+.portal-reveal{position:absolute;inset:0;transform-style:preserve-3d}
+.portal-face{position:absolute;inset:0;border:94px solid var(--stone-light);border-left-color:var(--stone-dark);border-bottom-color:var(--stone-dark);backface-visibility:hidden}
+.inner-jamb{position:absolute;top:94px;height:862px;width:66px;background:var(--stone-dark);backface-visibility:hidden}
+.left-jamb{left:94px;transform-origin:left center;transform:rotateY(90deg)}
+.right-jamb{right:94px;transform-origin:right center;transform:rotateY(-90deg);background:var(--stone-light)}
+.portal-detail{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;backface-visibility:hidden}.copper{stroke-dasharray:1;stroke-dashoffset:0}
+.daylight{position:absolute;left:-2240px;top:-1340px;width:5200px;height:3400px;background:#f2efe8;backface-visibility:hidden}
+.shutter{position:absolute;top:0;bottom:0;width:50%;background:#25241f}.shutter-left{left:0}.shutter-right{right:0}
+.seam{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.seam-path{stroke-dasharray:1;stroke-dashoffset:0}
+.finish-space{position:absolute;inset:0;background:#f2efe8;pointer-events:none}
+.lockup{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:25px;text-align:center;padding:44px;color:#25241f}
+.brand{font-size:24px;font-weight:400;letter-spacing:.25em;direction:ltr;margin:0}
+h1{display:flex;flex-direction:column;gap:0;align-items:center;justify-content:center;font-size:82px;font-weight:400;line-height:1.12;letter-spacing:-.035em;margin:0}
+.word-window{overflow:hidden;padding:0 .08em .1em}.word{display:block}.closing-rule{width:44px;height:1px;background:#98754f;margin-top:12px;transform-origin:center}
+</style></head><body>
+<div id="root" data-composition-id="threshold" data-start="0" data-duration="8" data-width="720" data-height="720">
+  <section id="threshold-scene" aria-label="מעבר אדריכלי מהחושך אל חלל בהיר">
+    <div class="perspective-stage" aria-hidden="true"><div class="passage-world" data-layout-allow-overflow><div class="daylight" data-layout-ignore></div>
+    <div class="portal portal-0" style="--stone-light:#b7aea0;--stone-dark:#625d53" aria-hidden="true" data-layout-ignore>
+      <div class="portal-reveal"><div class="portal-face"></div><div class="inner-jamb left-jamb"></div><div class="inner-jamb right-jamb"></div>
+        <svg class="portal-detail" viewBox="0 0 960 1050" fill="none" aria-hidden="true" data-layout-ignore>
+          <path class="copper copper-0" pathLength="1" d="M86 964V86H874V964" stroke="#ae8963" stroke-width="1.5"/>
+          <path d="M0 47H960M47 0V1050M913 0V1050" stroke="#25241f" stroke-opacity=".12" stroke-width="1"/>
+          <path d="M102 948H858" stroke="#f2efe8" stroke-opacity=".6" stroke-width="1"/>
+        </svg>
+      </div>
+    </div>
+    <div class="portal portal-1" style="--stone-light:#c8bfb0;--stone-dark:#7c7466" aria-hidden="true" data-layout-ignore>
+      <div class="portal-reveal"><div class="portal-face"></div><div class="inner-jamb left-jamb"></div><div class="inner-jamb right-jamb"></div>
+        <svg class="portal-detail" viewBox="0 0 960 1050" fill="none" aria-hidden="true" data-layout-ignore>
+          <path class="copper copper-1" pathLength="1" d="M86 964V86H874V964" stroke="#ae8963" stroke-width="1.5"/>
+          <path d="M0 47H960M47 0V1050M913 0V1050" stroke="#25241f" stroke-opacity=".12" stroke-width="1"/>
+          <path d="M102 948H858" stroke="#f2efe8" stroke-opacity=".6" stroke-width="1"/>
+        </svg>
+      </div>
+    </div>
+    <div class="portal portal-2" style="--stone-light:#d3cbbd;--stone-dark:#968b7a" aria-hidden="true" data-layout-ignore>
+      <div class="portal-reveal"><div class="portal-face"></div><div class="inner-jamb left-jamb"></div><div class="inner-jamb right-jamb"></div>
+        <svg class="portal-detail" viewBox="0 0 960 1050" fill="none" aria-hidden="true" data-layout-ignore>
+          <path class="copper copper-2" pathLength="1" d="M86 964V86H874V964" stroke="#ae8963" stroke-width="1.5"/>
+          <path d="M0 47H960M47 0V1050M913 0V1050" stroke="#25241f" stroke-opacity=".12" stroke-width="1"/>
+          <path d="M102 948H858" stroke="#f2efe8" stroke-opacity=".6" stroke-width="1"/>
+        </svg>
+      </div>
+    </div>
+    <div class="portal portal-3" style="--stone-light:#e0d8cc;--stone-dark:#aaa08e" aria-hidden="true" data-layout-ignore>
+      <div class="portal-reveal"><div class="portal-face"></div><div class="inner-jamb left-jamb"></div><div class="inner-jamb right-jamb"></div>
+        <svg class="portal-detail" viewBox="0 0 960 1050" fill="none" aria-hidden="true" data-layout-ignore>
+          <path class="copper copper-3" pathLength="1" d="M86 964V86H874V964" stroke="#ae8963" stroke-width="1.5"/>
+          <path d="M0 47H960M47 0V1050M913 0V1050" stroke="#25241f" stroke-opacity=".12" stroke-width="1"/>
+          <path d="M102 948H858" stroke="#f2efe8" stroke-opacity=".6" stroke-width="1"/>
+        </svg>
+      </div>
+    </div>
+    <div class="portal portal-4" style="--stone-light:#e7e1d6;--stone-dark:#bdb3a1" aria-hidden="true" data-layout-ignore>
+      <div class="portal-reveal"><div class="portal-face"></div><div class="inner-jamb left-jamb"></div><div class="inner-jamb right-jamb"></div>
+        <svg class="portal-detail" viewBox="0 0 960 1050" fill="none" aria-hidden="true" data-layout-ignore>
+          <path class="copper copper-4" pathLength="1" d="M86 964V86H874V964" stroke="#ae8963" stroke-width="1.5"/>
+          <path d="M0 47H960M47 0V1050M913 0V1050" stroke="#25241f" stroke-opacity=".12" stroke-width="1"/>
+          <path d="M102 948H858" stroke="#f2efe8" stroke-opacity=".6" stroke-width="1"/>
+        </svg>
+      </div>
+    </div>
+    <div class="portal portal-5" style="--stone-light:#ede8df;--stone-dark:#cfc5b5" aria-hidden="true" data-layout-ignore>
+      <div class="portal-reveal"><div class="portal-face"></div><div class="inner-jamb left-jamb"></div><div class="inner-jamb right-jamb"></div>
+        <svg class="portal-detail" viewBox="0 0 960 1050" fill="none" aria-hidden="true" data-layout-ignore>
+          <path class="copper copper-5" pathLength="1" d="M86 964V86H874V964" stroke="#ae8963" stroke-width="1.5"/>
+          <path d="M0 47H960M47 0V1050M913 0V1050" stroke="#25241f" stroke-opacity=".12" stroke-width="1"/>
+          <path d="M102 948H858" stroke="#f2efe8" stroke-opacity=".6" stroke-width="1"/>
+        </svg>
+      </div>
+    </div></div></div>
+    <div class="shutter shutter-left" aria-hidden="true" data-layout-allow-overflow></div><div class="shutter shutter-right" aria-hidden="true" data-layout-allow-overflow></div>
+    <svg class="seam" viewBox="0 0 720 720" aria-hidden="true"><path class="seam-path" pathLength="1" d="M350 115.2H360V604.8H370" fill="none" stroke="#ae8963" stroke-width="1.8"/></svg>
+    <div class="finish-space" aria-hidden="true" data-layout-ignore></div>
+    <div class="lockup"><p class="brand">YIGAL GROUP</p><h1><span class="word-window"><span class="word" data-layout-allow-overflow>מהמחשבה</span></span><span class="word-window"><span class="word" data-layout-allow-overflow>אל המרחב.</span></span></h1><div class="closing-rule" aria-hidden="true"></div></div>
+  </section>
+</div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.addLabel('seam',0).addLabel('opening',.65).addLabel('passage',1.5).addLabel('daylight',5).addLabel('lockup',5.2);
+tl.set('.daylight',{z:-1920},0);
+tl.set('.portal-0',{z:0},0);
+tl.set('.portal-1',{z:-270},0);
+tl.set('.portal-2',{z:-540},0);
+tl.set('.portal-3',{z:-810},0);
+tl.set('.portal-4',{z:-1080},0);
+tl.set('.portal-5',{z:-1350},0);
+tl.fromTo('.seam-path',{strokeDashoffset:1},{strokeDashoffset:0,autoRound:false,duration:1.25,ease:'power2.inOut'},0)
+  .fromTo('.shutter-left',{xPercent:0},{xPercent:-100,duration:2.05,ease:'power3.inOut'},.65)
+  .fromTo('.shutter-right',{xPercent:0},{xPercent:100,duration:2.05,ease:'power3.inOut'},.65)
+  .fromTo('.seam',{opacity:1},{opacity:0,duration:.45,ease:'power1.in'},1.0)
+  .fromTo('.passage-world',{z:-480,x:28,rotationY:-3.6},{z:1850,x:0,rotationY:0,duration:5.65,ease:'power2.inOut'},.85)
+  .fromTo('.copper',{strokeDashoffset:1},{strokeDashoffset:0,autoRound:false,duration:1.6,stagger:.18,ease:'power2.inOut'},1)
+  .fromTo('.finish-space',{opacity:0},{opacity:1,duration:.6,ease:'power1.inOut'},5)
+  .fromTo('.lockup',{autoAlpha:0},{autoAlpha:1,duration:.01},5.1)
+  .fromTo('.brand',{opacity:0,y:12},{opacity:1,y:0,duration:.6,ease:'power2.out'},5.2)
+  .fromTo('.word',{yPercent:118},{yPercent:0,duration:.65,stagger:.1,ease:'power3.out'},5.2)
+  .fromTo('.closing-rule',{scaleX:0,opacity:0},{scaleX:1,opacity:1,duration:.6,ease:'power2.inOut'},5.4);
+window.__timelines=window.__timelines||{};window.__timelines.threshold=tl;
+</script></body></html>

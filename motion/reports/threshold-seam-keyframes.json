@@ -1,0 +1,61 @@
+{
+  "project": "threshold",
+  "runtime": "all",
+  "compositions": [
+    {
+      "composition": "index.html",
+      "source": "index.html",
+      "tweens": [
+        {
+          "id": ".seam-path-fromTo-0-other",
+          "target": ".seam-path",
+          "method": "fromTo",
+          "group": "other",
+          "start": 0,
+          "duration": 1.25,
+          "end": 1.25,
+          "totalDuration": 1.25,
+          "position": 0,
+          "ease": "power2.inOut",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0,
+              "properties": {
+                "strokeDashoffset": 1
+              }
+            },
+            {
+              "pct": 100,
+              "time": 1.25,
+              "properties": {
+                "strokeDashoffset": 0
+              }
+            }
+          ],
+          "path": null,
+          "composedWith": [
+            {
+              "selector": ".seam",
+              "summary": "opacity 0..1"
+            }
+          ]
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    }
+  ],
+  "_meta": {
+    "version": "0.9.23",
+    "latestVersion": "0.9.23",
+    "updateAvailable": false,
+    "checkedAt": "2026-11-08T10:35:06.155Z",
+    "skillsOutdated": 4,
+    "skillsMissing": 0
+  }
+}

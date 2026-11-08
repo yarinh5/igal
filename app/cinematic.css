@@ -1,0 +1,66 @@
+/* The opening is an architectural stage. All motion has a static readable state. */
+.hero-story--desktop .hero-stage,.hero-story--portrait .hero-stage{background:#181e1c;min-height:0;height:calc(100svh - var(--header));max-height:none;isolation:isolate}
+.hero-studio-light{position:absolute;inset:0;background:radial-gradient(ellipse at 37% 43%,#62766b40,transparent 58%),linear-gradient(135deg,#222926,#151a18);z-index:0}
+.hero-story .hero-photo{will-change:transform,opacity;transform-origin:50% 45%}
+.hero-story .hero-copy{will-change:transform,opacity}
+.hero-story .hero-model{display:block;left:-7%;top:-2%;bottom:0;width:79%;opacity:0;visibility:hidden;pointer-events:none;will-change:transform,opacity}
+.hero-story .architecture-scene{color:#b8a18a}
+.hero-story .architecture-fallback{padding:10% 8%;opacity:.7}
+.hero-drafting{position:absolute;inset:0;width:100%;height:100%;z-index:2;opacity:0;color:#b6a68f;pointer-events:none}
+.hero-story-copy{position:absolute;right:var(--gutter);top:26%;width:29%;color:#f2efe8;z-index:6;opacity:0;visibility:hidden;pointer-events:none}
+.hero-story-copy .eyebrow{font-size:12px;font-weight:400;letter-spacing:.12em;color:#b8bdaf;margin-bottom:24px}
+.hero-story-copy h2{font-size:clamp(56px,6.25vw,102px);line-height:.99;font-weight:300;letter-spacing:-.045em}
+.hero-story-copy h2 em{color:#c7ab8a}
+.hero-story-copy p{font-size:19px;color:#c0c6bb;line-height:1.55;margin-top:26px}
+.hero-story-copy .text-link{margin-top:24px;color:#efe7d9;border-color:#c9b29266;pointer-events:auto;font-size:16px;gap:35px}
+.hero-story-copy .text-link:hover{color:#d7b488;border-color:#d7b488}
+.hero-model-caption{position:absolute;bottom:70px;left:var(--gutter);z-index:5;color:#aab3a7;font-size:11px;letter-spacing:.03em;opacity:0;visibility:hidden}
+.hero-story .hero-skip{bottom:112px}
+.hero-story .hero-progress{color:#e8e5dc;z-index:8}
+.hero-chapters{display:flex;align-items:center;gap:15px;direction:ltr;font:10px Manrope;letter-spacing:.08em}
+.hero-chapters b{font-weight:400;color:#9eaaa0;opacity:.45;transition:opacity .25s,color .25s}
+[data-chapter="1"] [data-chapter-number="1"],[data-chapter="2"] [data-chapter-number="2"],[data-chapter="3"] [data-chapter-number="3"]{opacity:1;color:#f0d1a7}
+.hero-story .hero-progress i{background:#d6b28b;transform:scaleX(0)}
+.hero-story--static .hero-model,.hero-story--static .hero-story-copy,.hero-story--static .hero-drafting,.hero-story--static .hero-model-caption,.hero-story--static .hero-studio-light{display:none}
+.threshold-section{background:var(--paper);overflow:hidden;position:relative}
+.threshold-section .hyper-scene{background:#25241f}
+.threshold-section .hyper-fallback{object-fit:cover}
+.threshold-section+.intro-section{padding-top:80px}
+.craft-section{will-change:clip-path}
+
+@media(max-width:899px){
+ .hero-story--portrait .hero-model{display:block;width:128%;left:-14%;top:20%;bottom:0;visibility:hidden}
+ .hero-story--portrait .hero-story-copy{right:32px;left:32px;top:65px;width:auto}
+ .hero-story--portrait .hero-story-copy h2{font-size:clamp(55px,8vw,75px)}
+ .hero-story--portrait .hero-story-copy h2 br{display:none}
+ .hero-story--portrait .hero-story-copy h2 em{margin-right:.12em}
+ .hero-story--portrait .hero-story-copy .eyebrow{margin-bottom:15px;font-size:11px}
+ .hero-story--portrait .hero-story-copy p{font-size:16px;margin-top:14px;line-height:1.4}
+ .hero-story--portrait .hero-story-copy .text-link{display:none}
+ .hero-story--portrait .hero-model-caption{bottom:65px;left:32px;font-size:10px}
+ .hero-story--portrait .hero-skip{bottom:98px}
+ .hero-story--portrait .hero-drafting{height:75%;top:15%}
+ .threshold-section+.intro-section{padding-top:55px}
+}
+@media(max-width:600px){
+ .hero-story--portrait .hero-story-copy{left:22px;right:22px;top:65px}
+ .hero-story--portrait .hero-story-copy h2{font-size:clamp(42px,12vw,58px);line-height:1.08}
+ .hero-story--portrait .hero-story-copy p{font-size:15px;max-width:250px}
+ .hero-story--portrait .hero-model{width:132%;left:-16%;top:18%;bottom:3%}
+ .hero-story--portrait .hero-model-caption{left:22px;bottom:61px;font-size:9px}
+ .hero-story--portrait .hero-skip{font-size:12px;bottom:92px}
+ .hero-chapters{gap:10px;font-size:9px}
+ .hero-story--portrait .hero-progress{bottom:21px}
+ .threshold-section+.intro-section{padding-top:42px}
+}
+@media(max-width:899px) and (max-height:720px){
+ .hero-story--portrait .hero-story-copy{top:52px}
+ .hero-story--portrait .hero-story-copy h2{font-size:42px}
+ .hero-story--portrait .hero-story-copy .eyebrow{margin-bottom:9px}
+ .hero-story--portrait .hero-story-copy p{margin-top:8px;font-size:14px}
+ .hero-story--portrait .hero-model{top:18%;bottom:1%}
+ .hero-story--portrait .hero-topline{top:20px}
+}
+html[data-motion=reduced] .craft-section{clip-path:none!important}
+html[data-motion=reduced] .hero-progress-line{transform:scaleX(1)}
+@media(prefers-reduced-motion:reduce){.hero-story .hero-photo,.hero-story .hero-copy,.hero-story .hero-model,.craft-section{will-change:auto}}

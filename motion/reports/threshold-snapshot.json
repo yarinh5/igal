@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "outputDir": "F:\\project love\\igal\\yigal-site\\motion\\previews\\threshold-proof",
+  "frames": [
+    {
+      "path": "F:\\project love\\igal\\yigal-site\\motion\\previews\\threshold-proof\\frame-00-at-0.55s.png",
+      "time": 0.55
+    },
+    {
+      "path": "F:\\project love\\igal\\yigal-site\\motion\\previews\\threshold-proof\\frame-01-at-2.1s.png",
+      "time": 2.1
+    },
+    {
+      "path": "F:\\project love\\igal\\yigal-site\\motion\\previews\\threshold-proof\\frame-02-at-3.2s.png",
+      "time": 3.2
+    },
+    {
+      "path": "F:\\project love\\igal\\yigal-site\\motion\\previews\\threshold-proof\\frame-03-at-4.2s.png",
+      "time": 4.2
+    },
+    {
+      "path": "F:\\project love\\igal\\yigal-site\\motion\\previews\\threshold-proof\\frame-04-at-6s.png",
+      "time": 6
+    },
+    {
+      "path": "F:\\project love\\igal\\yigal-site\\motion\\previews\\threshold-proof\\frame-05-at-8s.png",
+      "time": 8
+    }
+  ],
+  "contactSheets": [
+    "F:\\project love\\igal\\yigal-site\\motion\\previews\\threshold-proof\\contact-sheet.jpg"
+  ],
+  "_meta": {
+    "version": "0.9.23",
+    "latestVersion": "0.9.23",
+    "updateAvailable": false,
+    "checkedAt": "2026-11-08T10:35:06.155Z",
+    "skillsOutdated": 4,
+    "skillsMissing": 0
+  }
+}

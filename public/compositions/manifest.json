@@ -49,5 +49,22 @@
       "fallback": "/compositions/chapter/mobile/fallback.svg"
     },
     "fallback": "/compositions/chapter/fallback.svg"
+  },
+  {
+    "id": "threshold",
+    "title": "מהמחשבה אל המרחב.",
+    "duration": 8,
+    "desktop": {
+      "src": "/compositions/threshold/index.html",
+      "width": 1600,
+      "height": 700
+    },
+    "mobile": {
+      "src": "/compositions/threshold/mobile/index.html",
+      "width": 720,
+      "height": 720,
+      "fallback": "/compositions/threshold/mobile/fallback.svg"
+    },
+    "fallback": "/compositions/threshold/fallback.svg"
   }
 ]

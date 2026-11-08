@@ -1,0 +1,21 @@
+◆  Capturing 6 frames at [0.55s, 2.1s, 3.2s, 4.2s, 6s, 8s] from threshold
+[hyperframes] browserGpuMode probe → hardware (WebGL renderer vendor="Google Inc. (NVIDIA)" renderer="ANGLE (NVIDIA, NVIDIA GeForce RTX 2060 SUPER (0x00001F06) Direct3D11 vs_5_0 ps_5_0, D3D11)")
+
+   Fonts: 1 loaded
+[hyperframes] snapshot: frame 1/6 at 0.55s
+[hyperframes] snapshot: frame 2/6 at 2.1s
+[hyperframes] snapshot: frame 3/6 at 3.2s
+[hyperframes] snapshot: frame 4/6 at 4.2s
+[hyperframes] snapshot: frame 5/6 at 6s
+[hyperframes] snapshot: frame 6/6 at 8s
+   Revision: 916f7768-4ea2-48de-a834-c4471010d4c1 (recorded-revision)
+   State: F:\project love\igal\yigal-site\public\compositions\threshold\.hyperframes\video-state.json
+
+◇  6 snapshots saved to F:\project love\igal\yigal-site\motion\previews\threshold-proof
+   F:\project love\igal\yigal-site\motion\previews\threshold-proof\frame-00-at-0.55s.png
+   F:\project love\igal\yigal-site\motion\previews\threshold-proof\frame-01-at-2.1s.png
+   F:\project love\igal\yigal-site\motion\previews\threshold-proof\frame-02-at-3.2s.png
+   F:\project love\igal\yigal-site\motion\previews\threshold-proof\frame-03-at-4.2s.png
+   F:\project love\igal\yigal-site\motion\previews\threshold-proof\frame-04-at-6s.png
+   F:\project love\igal\yigal-site\motion\previews\threshold-proof\frame-05-at-8s.png
+   F:\project love\igal\yigal-site\motion\previews\threshold-proof\contact-sheet.jpg (grid view for AI review)

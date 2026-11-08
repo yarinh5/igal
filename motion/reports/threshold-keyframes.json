@@ -1,0 +1,58 @@
+{
+  "project": "threshold",
+  "runtime": "all",
+  "compositions": [
+    {
+      "composition": "index.html",
+      "source": "index.html",
+      "tweens": [
+        {
+          "id": ".passage-world-fromTo-850",
+          "target": ".passage-world",
+          "method": "fromTo",
+          "start": 0.85,
+          "duration": 5.65,
+          "end": 6.5,
+          "totalDuration": 5.65,
+          "position": 0.85,
+          "ease": "power2.inOut",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.85,
+              "properties": {
+                "z": -600,
+                "x": 54,
+                "rotationY": -4.8
+              }
+            },
+            {
+              "pct": 100,
+              "time": 6.5,
+              "properties": {
+                "z": 2500,
+                "x": 0,
+                "rotationY": 0
+              }
+            }
+          ],
+          "path": null
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    }
+  ],
+  "_meta": {
+    "version": "0.9.23",
+    "latestVersion": "0.9.23",
+    "updateAvailable": false,
+    "checkedAt": "2026-11-08T10:35:06.155Z",
+    "skillsOutdated": 4,
+    "skillsMissing": 0
+  }
+}
