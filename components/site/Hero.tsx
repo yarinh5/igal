@@ -6,10 +6,12 @@ import {Icon} from './Icons';
 import {useMotion} from '../motion/MotionProvider';
 import ArchitectureScene,{type ArchitectureSeek} from '../motion/ArchitectureScene';
 import {heroMode,type HeroMode} from '@/lib/hero-motion';
+import {useOpening} from './Opening';
 
 export function Hero(){
  const root=useRef<HTMLElement>(null);
  const {reduced}=useMotion();
+ const opening=useOpening();
  const [mode,setMode]=useState<HeroMode>('static');
  const sceneSeek=useRef<ArchitectureSeek|null>(null);
  const progress=useRef(0);
@@ -20,7 +22,7 @@ export function Hero(){
   return()=>window.removeEventListener('resize',update);
  },[reduced]);
  useEffect(()=>{
-  const el=root.current;if(!el)return;
+  const el=root.current;if(!el||opening)return;
   let cancelled=false;
   const context=gsap.context(()=>{
    if(!reduced){
@@ -61,7 +63,7 @@ export function Hero(){
   },el);
   document.fonts.ready.then(()=>{if(!cancelled)ScrollTrigger.refresh()});
   return()=>{cancelled=true;context.revert();progress.current=0;sceneSeek.current?.(0)};
- },[reduced,mode]);
+ },[reduced,mode,opening]);
 
  return <section className={`hero-story hero-story--${mode}`} ref={root} aria-label="קבוצת יגאל בוחבוט" data-hero-mode={mode}>
   <div className="hero-stage" data-hero-stage data-progress="0" data-chapter="1">
