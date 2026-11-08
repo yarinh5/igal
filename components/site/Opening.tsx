@@ -1,6 +1,7 @@
 'use client';
-import {createContext,useContext,useEffect,useRef,useState} from 'react';
+import {createContext,useCallback,useContext,useEffect,useRef,useState} from 'react';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
+import {OpeningComposition} from './OpeningComposition';
 
 const OpeningContext=createContext(true);
 export const useOpening=()=>useContext(OpeningContext);
@@ -10,12 +11,18 @@ export function Opening({children}:{children:React.ReactNode}){
  const [active,setActive]=useState(true);
  const [animate,setAnimate]=useState(false);
  const [playing,setPlaying]=useState(false);
+ const [composition,setComposition]=useState(false);
  const playbackStarted=useRef(false);
  const playbackTimer=useRef<ReturnType<typeof setTimeout>|null>(null);
  const content=useRef<HTMLDivElement>(null);
  const video=useRef<HTMLVideoElement>(null);
  const skip=useRef<HTMLButtonElement>(null);
- const finish=()=>setActive(false);
+ const finish=useCallback(()=>setActive(false),[]);
+ const still=useCallback(()=>{setAnimate(false);setPlaying(false)},[]);
+ const useComposition=useCallback(()=>{
+  if(playbackTimer.current)clearTimeout(playbackTimer.current);
+  playbackStarted.current=false;setPlaying(false);setComposition(true);
+ },[]);
  useEffect(()=>{
   if(!active)return;
   const media=matchMedia('(prefers-reduced-motion: reduce)');
@@ -38,17 +45,24 @@ export function Opening({children}:{children:React.ReactNode}){
  },[active]);
  useEffect(()=>{
   if(!active)return;
-  if(animate){video.current?.play().catch(()=>setAnimate(false));return;}
+  if(animate){
+   if(composition)return;
+   let disposed=false;
+   // Some mobile browsers neither reject play() nor emit playing.
+   const timer=setTimeout(()=>{if(!playbackStarted.current)useComposition()},1500);
+   if(video.current){video.current.muted=true;video.current.play().catch(()=>{if(!disposed)useComposition()})}
+   return()=>{disposed=true;clearTimeout(timer)};
+  }
   const timer=setTimeout(()=>setActive(false),3000);
   return()=>clearTimeout(timer);
- },[animate,active]);
- const started=()=>{
+ },[animate,active,composition,useComposition]);
+ const started=useCallback(()=>{
   setPlaying(true);
   if(playbackStarted.current)return;
   playbackStarted.current=true;
   // Ended normally closes the opening; this handles a mid-playback stall.
   playbackTimer.current=setTimeout(finish,3500);
- };
+ },[finish]);
  useEffect(()=>{
   if(active)return;
   const frame=requestAnimationFrame(()=>{ScrollTrigger.refresh();
@@ -60,8 +74,8 @@ export function Opening({children}:{children:React.ReactNode}){
  return <OpeningContext.Provider value={active}>
   <div ref={content}>{children}</div>
   {active&&<div className="brand-opening" data-opening data-playing={playing&&animate} data-lenis-prevent role="region" aria-label="פתיחת קבוצת יגאל בוחבוט" onKeyDown={e=>{if(e.key==='Escape')dismiss()}}>
-   <div className="brand-opening-fallback" aria-hidden="true"><img src="/images/logo-vertical.webp" alt=""/><strong dir="ltr">YIGAL GROUP</strong></div>
-   {animate&&<video ref={video} className="brand-opening-video" src="/media/yigal-opening.mp4" autoPlay muted playsInline preload="auto" aria-hidden="true" onPlaying={started} onError={()=>setAnimate(false)} onEnded={finish}/>}
+   <img className="brand-opening-fallback" src="/media/yigal-opening-poster.webp" alt="" aria-hidden="true"/>
+   {animate&&(composition?<OpeningComposition onStart={started} onEnd={finish} onError={still}/>:<video ref={video} className="brand-opening-video" src="/media/yigal-opening.mp4" autoPlay muted playsInline preload="auto" aria-hidden="true" onPlaying={started} onError={useComposition} onEnded={finish}/>)}
    <button ref={skip} className="brand-opening-skip" onClick={dismiss}>דלגו לאתר</button>
   </div>}
   <noscript><style>{'.brand-opening{display:none!important}'}</style></noscript>
