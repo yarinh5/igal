@@ -38,7 +38,7 @@ export function Hero(){
    };
    const timeline=gsap.timeline({
     onUpdate:render,
-    scrollTrigger:{trigger:stage,refreshPriority:10,start:()=>`top top+=${document.querySelector('header')?.getBoundingClientRect().height||72}`,end:()=>'+='+Math.round(stage.clientHeight*(portrait?1.75:2.15)),pin:stage,scrub:portrait?.32:.72,anticipatePin:1,invalidateOnRefresh:true},
+    scrollTrigger:{trigger:stage,refreshPriority:10,start:()=>`top top+=${document.querySelector('header')?.getBoundingClientRect().height||72}`,end:()=>'+='+Math.round(stage.clientHeight*(portrait?1.75:2.15)),pin:stage,scrub:portrait?.42:.72,anticipatePin:1,invalidateOnRefresh:true},
    });
    timeline.to(driver,{value:1,duration:1,ease:'none'},0)
     .to('.hero-copy',{y:portrait?-35:-65,autoAlpha:0,duration:.17,ease:'power1.in'},.015)
@@ -50,8 +50,8 @@ export function Hero(){
     .to('.hero-aperture',{scale:1.08,opacity:0,duration:.28,ease:'power2.inOut'},.5)
     .to('.hero-drafting',{opacity:0,duration:.24},.43)
     .fromTo('.hero-model',{autoAlpha:0,scale:.86},{autoAlpha:1,scale:1,duration:.29,ease:'power2.out',immediateRender:false},.14)
-    .fromTo('.hero-story-copy--plan',{autoAlpha:0,y:35},{autoAlpha:1,y:0,duration:.13,immediateRender:false},.23)
-    .to('.hero-story-copy--plan',{autoAlpha:0,y:-25,duration:.1},.55)
+    .fromTo('.hero-story-copy--plan',{autoAlpha:0,y:24},{autoAlpha:1,y:0,duration:.08,ease:'power2.out',immediateRender:false},.19)
+    .to('.hero-story-copy--plan',{autoAlpha:0,y:-18,duration:.09,ease:'power2.in'},.57)
     .fromTo('.hero-story-copy--home',{autoAlpha:0,y:35},{autoAlpha:1,y:0,duration:.14,immediateRender:false},.65)
     .fromTo('.hero-model-caption',{autoAlpha:0},{autoAlpha:1,duration:.15,immediateRender:false},.4)
     .fromTo('.hero-progress-line',{scaleX:0},{scaleX:1,duration:1,ease:'none'},0)

@@ -27,8 +27,16 @@ test('camera path is seekable and ends with an assembled building',()=>{
 });
 
 test('mobile renderer quality adapts without disabling the scroll story',()=>{
- assert.deepEqual(renderProfile(true,4,4,3),{tier:'compact',dpr:1,antialias:false});
- assert.deepEqual(renderProfile(true,8,8,3),{tier:'mobile',dpr:1.2,antialias:true});
+ assert.deepEqual(renderProfile(true,4,4,3),{tier:'compact',dpr:1.25,antialias:true});
+ assert.deepEqual(renderProfile(true,8,8,3),{tier:'mobile',dpr:1.5,antialias:true});
+ assert.deepEqual(renderProfile(true,8,8,1),{tier:'mobile',dpr:1.25,antialias:true});
  assert.deepEqual(renderProfile(false,4,4,2),{tier:'desktop',dpr:1.6,antialias:true});
  assert.deepEqual(renderProfile(true,8,8,.8),{tier:'mobile',dpr:.8,antialias:true});
+});
+
+test('portrait camera travel stays calm enough for the short first-line chapter',()=>{
+ const start=architecturePose(0,true),end=architecturePose(1,true);
+ assert.ok(Math.abs(end.angle-start.angle)<=1.65,'mobile orbit is too wide');
+ assert.ok(Math.abs(end.elevation-start.elevation)<=4.6,'mobile elevation changes too quickly');
+ assert.ok(Math.abs(end.distance-start.distance)<=3.8,'mobile dolly changes too quickly');
 });

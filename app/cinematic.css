@@ -13,6 +13,8 @@
 .hero-story .architecture-fallback{padding:10% 8%;opacity:.7}
 .hero-drafting{position:absolute;inset:0;width:100%;height:100%;z-index:2;opacity:0;color:#b6a68f;pointer-events:none}
 .hero-story-copy{position:absolute;right:var(--gutter);top:26%;width:29%;color:#f2efe8;z-index:6;opacity:0;visibility:hidden;pointer-events:none}
+.hero-story-copy--plan:before{content:'';position:absolute;z-index:-1;inset:-34px -42px;background:radial-gradient(ellipse at 80% 45%,#111715e6 0,#111715a3 42%,transparent 72%);pointer-events:none}
+.hero-story-copy--plan h2,.hero-story-copy--plan p,.hero-story-copy--plan .eyebrow{text-shadow:0 2px 22px #0b100fe6}
 .hero-story-copy .eyebrow{font-size:12px;font-weight:400;letter-spacing:.12em;color:#b8bdaf;margin-bottom:24px}
 .hero-story-copy h2{font-size:clamp(56px,6.25vw,102px);line-height:.99;font-weight:300;letter-spacing:-.045em}
 .hero-story-copy h2 em{color:#c7ab8a}
@@ -47,6 +49,7 @@
  .hero-story--portrait .hero-story-copy .eyebrow{margin-bottom:15px;font-size:11px}
  .hero-story--portrait .hero-story-copy p{font-size:16px;margin-top:14px;line-height:1.4}
  .hero-story--portrait .hero-story-copy .text-link{display:none}
+ .hero-story--portrait .hero-story-copy--plan:before{inset:-24px -22px;background:linear-gradient(90deg,transparent 0,#111715b8 36%,#111715e8 100%)}
  .hero-story--portrait .hero-model-caption{bottom:65px;left:32px;font-size:10px}
  .hero-story--portrait .hero-skip{bottom:98px}
  .hero-story--portrait .hero-drafting{height:75%;top:15%}
