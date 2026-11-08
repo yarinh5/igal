@@ -22,7 +22,7 @@ export async function POST(request: Request) {
     if(!stored||Object.entries(data).some(([key,value])=>stored[key as keyof typeof stored]!==value)) return Response.json({error:'פרטי הפנייה השתנו. יש לשלוח מחדש.'},{status:409});
     return Response.json({ ok: true, reference: requestId }, { status: 201, headers: { 'Cache-Control': 'no-store' } });
   } catch (error) {
-    console.error('Inquiry persistence failed', error instanceof Error ? error.message : 'unknown');
+    console.error('Inquiry persistence failed', error instanceof Error ? error.name : 'unknown');
     return Response.json({ error: 'הפנייה לא נשמרה. אפשר לנסות שוב או ליצור קשר בטלפון.' }, { status: 503 });
   }
 }
