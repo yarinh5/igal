@@ -2,6 +2,8 @@
 
 הפרויקט כולל מסלול Next.js רגיל, ללא צורך ב־Cloudflare, במסד נתונים או בהתחברות ל־ChatGPT בגרסת Vercel.
 
+המאגר `yarinh5/igal` מחובר לפרויקט `yigal-group` ב־Vercel. כל push לענף `main` מפעיל פריסת Production, וענפים או Pull Requests מפעילים Preview Deployment.
+
 ## הגדרות הפרויקט
 
 1. העלו את תוכן הפרויקט למאגר Git ובחרו Import Project ב־Vercel.
