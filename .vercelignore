@@ -1,0 +1,15 @@
+.git
+.next
+.vinext
+.wrangler
+.sites-runtime
+.openai
+node_modules
+dist
+outputs
+work
+motion
+docs/screenshots
+.env*
+.dev.vars*
+*.tsbuildinfo

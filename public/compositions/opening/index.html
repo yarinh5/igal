@@ -157,8 +157,9 @@
       }
       .logo-fragment:nth-child(1) { clip-path: polygon(0 0, 52% 0, 52% 52%, 0 52%); }
       .logo-fragment:nth-child(2) { clip-path: polygon(48% 0, 100% 0, 100% 52%, 48% 52%); }
-      .logo-fragment:nth-child(3) { clip-path: polygon(0 48%, 52% 48%, 52% 100%, 0 100%); }
-      .logo-fragment:nth-child(4) { clip-path: polygon(48% 48%, 100% 48%, 100% 100%, 48% 100%); }
+      /* Keep the symbol; the company name is animated separately below it. */
+      .logo-fragment:nth-child(3) { clip-path: polygon(0 48%, 52% 48%, 52% 62%, 0 62%); }
+      .logo-fragment:nth-child(4) { clip-path: polygon(48% 48%, 100% 48%, 100% 62%, 48% 62%); }
 
       #brand-copy {
         position: relative;
