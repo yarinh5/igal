@@ -8,7 +8,7 @@ node_modules
 dist
 outputs
 work
-motion
+/motion
 docs/screenshots
 .env*
 .dev.vars*
